@@ -1,8 +1,8 @@
 /* Custom CSS */
 
+
 #page-wrapper{
 	padding:25px;
-	min-height:568px;
 	background:#F0F0F0;
 }
 
@@ -19,4 +19,40 @@
 	margin-bottom:15px;
 	border-radius: 25px;
 }
+
+/* Begin Getting Started */
+
+.fa, .fa-play {
+	margin-right: 10px;
+	color: #59c9a5
+} 
+
+.fa, .fa-arrow-right {
+	color: #59c9a5
+}
+
+.far, .fa-square {
+	margin-right: 10px;
+}
+.far, .fa-check-square {
+	margin-right: 10px;
+	color: #59c9a5;
+}
+
+/* End Getting Started */
+
+
+li.borderless {
+  border: none;
+}
+
+.list-group-item {
+	margin: 20px;
+}
+
+.fas, .fa-arrow-right{
+	text-align: right;
+}
+
+
 

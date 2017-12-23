@@ -8,7 +8,7 @@
 
     <!-- Main CSS -->
     <link rel="stylesheet" href="css/main.css">
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- FontAwesome5 CDN -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
@@ -16,9 +16,9 @@
 
   <body>
 
-    <!-- Begin Nav Bar -->
-    <nav class="navbar navbar-light bg-light justify-content-between">
-      <a class="navbar-brand">Cliq</a>
+    <!-- Begin Main Nav Bar -->
+    <nav class="main-nav navbar navbar-light bg-light justify-content-between">
+      <a href="index.html" class="pull-left"><img src="/path/to/image.png">Insert Logo</a> 
       <form class="form-inline">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
@@ -36,8 +36,9 @@
           </div>
         </div>
     </nav>
-    <!-- /End Nav Bar -->
+    <!-- /End Main Nav Bar -->
 
+    <!-- Begin Sub Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -51,82 +52,69 @@
         </div>
       </div>
     </nav>
+    <!-- /End Sub Nav Bar -->
 
-
-    <div id="container-fluid">
-
-        <!-- Page Content -->
-        <div id="page-wrapper">
-            <div class="container-fluid">
-                <div class="row bg-title">
-            </div>
-                <!-- row -->
-                <div class="row">
-                    <!--col -->
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <div class="white-box">
-                            <div class="col-in row">
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <h2 style="width:300px"><i class="fa fa-play" aria-hidden="true" style="padding-right: 10px; color: #59c9a5"></i>Getting Started</h2> 
-                                </div>
-                                <div class="table-responsive col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <table class="table table-spacing">
-                                        <thead>
-                                            <tr>
-                                                <td>
-                                                Import Contacts
-                                                </td>
-                                                <td><a class="fas fa-arrow-right" aria-hidden="true" style= "color: #59c9a5; margin: 15px;" href="../html/settings_data_migration_import.html"></a></td>
-                                            </tr>
-                                            <tr>
-                                                <td><i class="class="fas fa-arrow-right" aria-hidden="true" style="padding-right: 10px; color: #59c9a5; margin: 15px;"></i>Connect Social Accounts</td>
-                                                <td><a class="fa fa-long-arrow-right" aria-hidden="true" style= "color: #59c9a5; margin: 15px;" href="../html/settings_manage_social_accounts.html"></a></td>
-                                            </tr>
-                                            <tr>
-                                                <td><i class="fas fa-arrow-right" aria-hidden="true" style="padding-right: 10px; color: #59c9a5; margin: 15px;"></i>Download Chrome Extension</td>
-                                                <td><a class="fa fa-long-arrow-right" aria-hidden="true" style= "color: #59c9a5; margin: 15px;" href="../html/settings_downloads_chrome.html"></a></td>
-                                            </tr>
-                                        </thead>
-                                    </table>
-                                    <a href="#" style="font-size: 14px">See all Reminders</a>
-                                </div>
-                            </div>
+    <div id="container-fluid page-wrapper">
+    <!-- Begin Page Wrapper -->
+      <div id="page-wrapper">
+        <!-- Begin Top Row - Getting Started + Reminders -->
+        <div class="row">
+            <!-- Begin Getting Started -->
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="white-box">
+                    <div class="col-in row">
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <h2><i class="fa fa-play fa-sm"></i>Getting Started</h2> 
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                          <ul class="list-group">
+                            <li class="list-group-item borderless"><i class="far fa-square fa-lg"></i>Import Contacts<i class="fas fa-arrow-right float-right"></i></li>
+                            <li class="list-group-item borderless"><i class="far fa-check-square fa-lg"></i>Connect Social Accounts<i class="fas fa-arrow-right float-right"></i></li>
+                            <li class="list-group-item borderless"><i class="far fa-square fa-lg"></i>Download Chrome Extension<i class="fas fa-arrow-right float-right"></i></li>
+                          </ul>
+                          <br>
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 33.33%;" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100">33%</div>
+                          </div>
                         </div>
                     </div>
-                    <!-- /.col -->
-                    <!--col -->
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <div class="white-box">
-                            <div class="col-in row">
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <h2><i class="fa fa-bell" aria-hidden="true" style="padding-right: 10px; color: #fb4c4f"></i>Reminders</h2> 
-                                </div>
-
-                                <div class="table-responsive col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <table class="table">
-                                        <thead>
-                                            <tr>
-                                                <td>Request Coffee Meeting<br><small style="font-size: 14px">October 24th, 2017 at 10:30AM</small></td>
-                                                <td><i class="fa fa-pencil" aria-hidden="true" style="color: #4ea2be"></i><i class="fa fa-trash-o" aria-hidden="true" style="padding-left: 15px; color: #fb4c4f"></i></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Review Portfolio<br><small style="font-size: 14px">November 10th, 2017 at 9:30AM</small></td>
-                                                <td><i class="fa fa-pencil" aria-hidden="true" style="color: #4ea2be"></i><i class="fa fa-trash-o" aria-hidden="true" style="padding-left: 15px; color: #fb4c4f"></i></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Introductory Meeting<br><small style="font-size: 14px">December 4th, 2017 at 2:00PM</small></td>
-                                                <td><i class="fa fa-pencil" aria-hidden="true" style="color: #4ea2be"></i><i class="fa fa-trash-o" aria-hidden="true" style="padding-left: 15px; color: #fb4c4f"></i></td>
-                                            </tr>
-                                        </thead>
-                                    </table>
-                                    <a href="#" style="font-size: 14px">See all Reminders</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.col -->
                 </div>
-                <!-- /.row -->
+            </div>
+            <!-- /End Getting Started -->
+
+            <!--Begin Reminders -->
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="white-box">
+                    <div class="col-in row">
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <h2><i class="fa fa-bell fa-sm"></i>Reminders</h2> 
+                        </div>
+
+                        <div class="table-responsive col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <td>Request Coffee Meeting<br><small style="font-size: 14px">October 24th, 2017 at 10:30AM</small></td>
+                                        <td><i class="fa fa-pencil" aria-hidden="true" style="color: #4ea2be"></i><i class="fa fa-trash-o" aria-hidden="true" style="padding-left: 15px; color: #fb4c4f"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Review Portfolio<br><small style="font-size: 14px">November 10th, 2017 at 9:30AM</small></td>
+                                        <td><i class="fa fa-pencil" aria-hidden="true" style="color: #4ea2be"></i><i class="fa fa-trash-o" aria-hidden="true" style="padding-left: 15px; color: #fb4c4f"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Introductory Meeting<br><small style="font-size: 14px">December 4th, 2017 at 2:00PM</small></td>
+                                        <td><i class="fa fa-pencil" aria-hidden="true" style="color: #4ea2be"></i><i class="fa fa-trash-o" aria-hidden="true" style="padding-left: 15px; color: #fb4c4f"></i></td>
+                                    </tr>
+                                </thead>
+                            </table>
+                            <a href="#" style="font-size: 14px">See all Reminders</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /End Reminders -->
+        </div>
+        <!-- /End Top Row - Getting Started + Reminders-->
 
                 <!--Favorite Contacts & Companies -->
                 <div class="row">
