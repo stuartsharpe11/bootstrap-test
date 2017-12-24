@@ -1,9 +1,9 @@
-/* Custom CSS */
-
+/* Stuart's Incredibly Awesome Custom CSS */
 
 #page-wrapper{
 	padding:25px;
 	background:#F0F0F0;
+	height: 100%;
 }
 
 .bg-title {
@@ -15,13 +15,36 @@
 
 .white-box{
 	background:#fff;
-	padding:25px;
-	margin-bottom:15px;
+	padding:20px;
 	border-radius: 25px;
+	width: 100%;
+	height: 100%
+}
+
+/* Begin Sub Nav Bar */
+.fas, .fa-tachometer-alt {
+	margin-right: 5px;
+}
+
+.fa, .fa-user {
+	margin-right: 5px;
+}
+
+.far, .fa-building {
+	margin-right: 5px;
+}
+
+.fas, .fa-wrench {
+	margin-right: 5px;
+}
+
+/* /End Sub Nav Bar */
+
+#favorites {
+	margin-top: 30px;
 }
 
 /* Begin Getting Started */
-
 .fa, .fa-play {
 	margin-right: 10px;
 	color: #59c9a5
@@ -38,8 +61,15 @@
 	margin-right: 10px;
 	color: #59c9a5;
 }
-
 /* End Getting Started */
+
+/* Begin Reminders */
+.fa, .fa-bell {
+	margin-right: 10px;
+	color: #fb4c4f
+} 
+
+/* End Reminders */
 
 
 li.borderless {
@@ -52,6 +82,10 @@ li.borderless {
 
 .fas, .fa-arrow-right{
 	text-align: right;
+}
+
+footer {
+	background:#F0F0F0;
 }
 
 
