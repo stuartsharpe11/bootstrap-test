@@ -21,23 +21,39 @@
 	height: 100%
 }
 
+/* Begin Main Nav Bar */
+.main-nav {
+	background-color: white;
+}
+
+.brand {
+	font-size: 30px;
+}
+/* /End Main Nav Bar */
+
+
 /* Begin Sub Nav Bar */
+.sub-nav{
+	background-color: #59c9a5 
+}
+.nav-item {
+	color: white;
+}
 .fas, .fa-tachometer-alt {
-	margin-right: 5px;
+	margin-right: 7.5px;
 }
 
 .fa, .fa-user {
-	margin-right: 5px;
+	margin-right: 7.5px;
 }
 
 .far, .fa-building {
-	margin-right: 5px;
+	margin-right: 7.5px;
 }
 
 .fas, .fa-wrench {
-	margin-right: 5px;
+	margin-right: 7.5px;
 }
-
 /* /End Sub Nav Bar */
 
 #favorites {
@@ -76,7 +92,7 @@ li.borderless {
   border: none;
 }
 
-.list-group-item {
+.get-started {
 	margin: 20px;
 }
 
