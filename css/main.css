@@ -16,29 +16,33 @@
 .white-box{
 	background:#fff;
 	padding:20px;
-	border-radius: 25px;
+	border-radius: 10px;
 	width: 100%;
 	height: 100%
 }
 
 /* Begin Main Nav Bar */
-.main-nav {
-	background-color: white;
-}
-
-.brand {
-	font-size: 30px;
-}
+/**********ADD ANY ADJUSTMENTS HERE**********/
 /* /End Main Nav Bar */
 
 
 /* Begin Sub Nav Bar */
-.sub-nav{
-	background-color: #59c9a5 
+#sub-nav{
+	background-color: white;
+	border: none;
 }
-.nav-item {
-	color: white;
+
+.nav, .nav-tabs {
+	border: none;
 }
+
+#active-link-color {
+	background-color: #F0F0F0;
+	border-color: #F0F0F0;
+}
+
+
+
 .fas, .fa-tachometer-alt {
 	margin-right: 7.5px;
 }
@@ -84,7 +88,6 @@
 	margin-right: 10px;
 	color: #fb4c4f
 } 
-
 /* End Reminders */
 
 
