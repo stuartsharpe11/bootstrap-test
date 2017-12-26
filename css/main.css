@@ -34,6 +34,7 @@
 	height: 100%;
 }
 
+
 /* Begin Main Nav Bar */
 /**********ADD ANY ADJUSTMENTS HERE**********/
 /* /End Main Nav Bar */
@@ -70,6 +71,7 @@
 	margin-right: 7.5px;
 }
 /* /End Sub Nav Bar */
+
 
 /* Begin Favorites */
 #favorites {
@@ -108,15 +110,6 @@
 	margin-right: 10px;
 	color: #59c9a5;
 }
-/* End Getting Started */
-
-/* Begin Reminders */
-.fa, .fa-bell {
-	margin-right: 10px;
-	color: #fb4c4f
-} 
-/* End Reminders */
-
 
 li.borderless {
   border: none;
@@ -129,15 +122,25 @@ li.borderless {
 .fas, .fa-arrow-right{
 	text-align: right;
 }
+/* End Getting Started */
 
+
+/* Begin Reminders */
+.fa, .fa-bell {
+	margin-right: 10px;
+	color: #fb4c4f
+} 
+/* End Reminders */
+
+
+/* Begin Footer */
 footer {
 	background:#F0F0F0;
 }
-
+/* End Footer */
 
 
 /* Begin Buttons */
-
 .button-settings {
     background-color: white;
     border: solid 1px #59c9a5;
@@ -174,3 +177,21 @@ footer {
 }
 /* End Buttons */
 
+
+
+/*  Begin Contacts & Companies Pages */
+.fas, .fa-th-large, .fa-xs{
+	margin-right: 10px;
+}
+
+.fas, .fa-plus {
+	margin-left: 5px;
+	margin-right: 10px;
+}
+
+.fas, .fa-filter {
+	margin-right: 20px;
+	margin-left: 5px;
+}
+
+/* /End Contacts & Companies Page */
