@@ -208,4 +208,12 @@ footer {
 .alt-type-select {
 	color: lightgrey;
 }
+
+.fas, .fa-plus {
+	color: #4ea2be;
+}
+
+.fas, .fa-filter {
+	color: #4ea2be;
+}
 /* /End Contacts & Companies Page */
