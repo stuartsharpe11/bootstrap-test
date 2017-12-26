@@ -1,12 +1,12 @@
 /* Stuart's Incredibly Awesome Custom CSS */
 
 .body {
-	background-color: #F0F0F0;
+	background-color: lightgrey;
 }
 
 #page-wrapper{
 	padding:10px;
-	background:#F0F0F0;
+	background:lightgrey;
 	height: 100%;
 	width: 100%
 }
@@ -177,6 +177,13 @@ footer {
 }
 /* End Buttons */
 
+/*  Begin Profile Cards */
+.card {
+	margin: 10px;
+	width: 15rem;
+
+}
+/*  /End Profile Cards */
 
 
 /*  Begin Contacts & Companies Pages */
@@ -194,4 +201,11 @@ footer {
 	margin-left: 5px;
 }
 
+.type-select {
+	color: #00CFA5;
+}
+
+.alt-type-select {
+	color: lightgrey;
+}
 /* /End Contacts & Companies Page */

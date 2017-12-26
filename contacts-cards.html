@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Cliq - The Mindful CRM for Recruiters</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- FontAwesome5 CDN -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+  </head>
+
+  <body class="body">
+
+    <!-- Begin Main Nav Bar -->
+    <nav class="main-nav navbar navbar-dark bg-dark justify-content-right">
+      <button type="button" class="btn btn-outline-light" href="index.html">C</button>
+      <form class="form-inline float-left">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+      </form>
+      <div class="dropdown">
+        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Stuart
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Help</a>
+          <a class="dropdown-item" href="#">Settings</a>
+          <a class="dropdown-item" href="#">Upgrade</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Log Out</a>
+        </div>
+      </div>
+    </nav>
+    <!-- /End Main Nav Bar -->
+
+    <!-- /Alt Sub Nav -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="button-navigation">
+          <a class="button-settings" href="index.html"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
+          <a class="button-settings-select" href="contacts.html"><i class="fa fa-user"></i>Contacts</a>
+          <a class="button-settings" href="companies.html"><i class="far fa-building"></i>Companies</a>
+          <a class="button-settings" href="#"><i class="fas fa-wrench"></i>Tools</a>
+        </div>
+      </div>
+    </div>
+    <!-- /Alt Sub Nav -->
+
+
+    <div id="container-fluid">
+    <!-- Begin Page Wrapper -->
+      <div id="page-wrapper">
+        <!--Contacts Section -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="white-box-lg">
+                    <h3 class="box-title">Contact List
+                      <!-- list and profile icons -->
+                      <a class="type-select" href="contacts-cards.html"><i class="fas fa-th-large fa-xs float-right"></i></a>
+                      <a class="alt-type-select" href="contacts.html"><i class="fas fa-th-list fa-xs float-right"></i></a>
+                      <!-- end list and profile icons -->
+                    </h3>
+                      <!--Begin Alphabet Pagination + Filter/Add Contact -->
+                      <div class="row">
+                        <!-- Begin Alphabet Pagination -->
+                        <div class="col">
+                          <nav aria-label="Page navigation example">
+                            <ul class="pagination pagination-sm">
+                              <li class="page-item"><a class="page-link" href="#">All</a></li>
+                              <li class="page-item"><a class="page-link" href="#">A</a></li>
+                              <li class="page-item"><a class="page-link" href="#">B</a></li>
+                              <li class="page-item"><a class="page-link" href="#">C</a></li>
+                              <li class="page-item"><a class="page-link" href="#">D</a></li>
+                              <li class="page-item"><a class="page-link" href="#">E</a></li>
+                              <li class="page-item"><a class="page-link" href="#">F</a></li>
+                              <li class="page-item"><a class="page-link" href="#">G</a></li>
+                              <li class="page-item"><a class="page-link" href="#">H</a></li>
+                              <li class="page-item"><a class="page-link" href="#">I</a></li>
+                              <li class="page-item"><a class="page-link" href="#">J</a></li>
+                              <li class="page-item"><a class="page-link" href="#">K</a></li>
+                              <li class="page-item"><a class="page-link" href="#">L</a></li>
+                              <li class="page-item"><a class="page-link" href="#">M</a></li>
+                              <li class="page-item"><a class="page-link" href="#">N</a></li>
+                              <li class="page-item"><a class="page-link" href="#">O</a></li>
+                              <li class="page-item"><a class="page-link" href="#">P</a></li>
+                              <li class="page-item"><a class="page-link" href="#">Q</a></li>
+                              <li class="page-item"><a class="page-link" href="#">R</a></li>
+                              <li class="page-item"><a class="page-link" href="#">S</a></li>
+                              <li class="page-item"><a class="page-link" href="#">T</a></li>
+                              <li class="page-item"><a class="page-link" href="#">U</a></li>
+                              <li class="page-item"><a class="page-link" href="#">V</a></li>
+                              <li class="page-item"><a class="page-link" href="#">W</a></li>
+                              <li class="page-item"><a class="page-link" href="#">X</a></li>
+                              <li class="page-item"><a class="page-link" href="#">Y</a></li>
+                              <li class="page-item"><a class="page-link" href="#">Z</a></li>
+                            </ul>
+                          </nav>
+                        </div>
+                        <!--/End Alphabet Pagination -->
+                        <!-- Begin Add Contact + Fitlter -->
+                        <div class="col">
+                          <a href="#" class="fas fa-plus float-right"></a><h6 class="float-right">Add Contact</h6>
+                          <a href="#" class="fas fa-filter float-right"></a><h6 class="float-right">Filter</h6>
+                        </div>
+                        <!-- /End Add Contact + Fitlter -->
+                      </div>
+                      <!--/End Alphabet Pagination + Filter/Add Contact -->
+            
+                      <!--Begin Card Table -->                           
+                      <table class="table-responsive">
+                        <div class="row">
+                          <div class="card">
+                            <img class="card-img-top" src="img/contact-profile-pic.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h4 class="card-title">Ben Cannon</h4>
+                              <p class="card-text">Senior Software Engineer<br>The Flex Company</p>
+                              <a href="#" class="btn btn-primary">View Profile</a>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <img class="card-img-top" src="img/contact-profile-pic.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h4 class="card-title">Ben Cannon</h4>
+                              <p class="card-text">Senior Software Engineer<br>The Flex Company</p>
+                              <a href="#" class="btn btn-primary">View Profile</a>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <img class="card-img-top" src="img/contact-profile-pic.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h4 class="card-title">Ben Cannon</h4>
+                              <p class="card-text">Senior Software Engineer<br>The Flex Company</p>
+                              <a href="#" class="btn btn-primary">View Profile</a>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <img class="card-img-top" src="img/contact-profile-pic.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h4 class="card-title">Ben Cannon</h4>
+                              <p class="card-text">Senior Software Engineer<br>The Flex Company</p>
+                              <a href="#" class="btn btn-primary">View Profile</a>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <img class="card-img-top" src="img/contact-profile-pic.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h4 class="card-title">Ben Cannon</h4>
+                              <p class="card-text">Senior Software Engineer<br>The Flex Company</p>
+                              <a href="#" class="btn btn-primary">View Profile</a>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <img class="card-img-top" src="img/contact-profile-pic.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h4 class="card-title">Ben Cannon</h4>
+                              <p class="card-text">Senior Software Engineer<br>The Flex Company</p>
+                              <a href="#" class="btn btn-primary">View Profile</a>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <img class="card-img-top" src="img/contact-profile-pic.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h4 class="card-title">Ben Cannon</h4>
+                              <p class="card-text">Senior Software Engineer<br>The Flex Company</p>
+                              <a href="#" class="btn btn-primary">View Profile</a>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <img class="card-img-top" src="img/contact-profile-pic.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h4 class="card-title">Ben Cannon</h4>
+                              <p class="card-text">Senior Software Engineer<br>The Flex Company</p>
+                              <a href="#" class="btn btn-primary">View Profile</a>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <img class="card-img-top" src="img/contact-profile-pic.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h4 class="card-title">Ben Cannon</h4>
+                              <p class="card-text">Senior Software Engineer<br>The Flex Company</p>
+                              <a href="#" class="btn btn-primary">View Profile</a>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <img class="card-img-top" src="img/contact-profile-pic.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h4 class="card-title">Ben Cannon</h4>
+                              <p class="card-text">Senior Software Engineer<br>The Flex Company</p>
+                              <a href="#" class="btn btn-primary">View Profile</a>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <img class="card-img-top" src="img/contact-profile-pic.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h4 class="card-title">Ben Cannon</h4>
+                              <p class="card-text">Senior Software Engineer<br>The Flex Company</p>
+                              <a href="#" class="btn btn-primary">View Profile</a>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <img class="card-img-top" src="img/contact-profile-pic.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h4 class="card-title">Ben Cannon</h4>
+                              <p class="card-text">Senior Software Engineer<br>The Flex Company</p>
+                              <a href="#" class="btn btn-primary">View Profile</a>
+                            </div>
+                          </div>
+                        </div>
+                      </table>
+                      <!--/End Card Table -->
+
+                </div>
+            </div>
+        </div>
+        <!-- /Contacts Section -->
+        <footer>
+        </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
