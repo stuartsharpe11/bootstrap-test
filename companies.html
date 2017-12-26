@@ -15,7 +15,6 @@
   </head>
 
   <body class="body">
-
     <!-- Begin Main Nav Bar -->
     <nav class="main-nav navbar navbar-dark bg-dark justify-content-right">
       <button type="button" class="btn btn-outline-light" href="index.html">C</button>
@@ -36,8 +35,7 @@
         </div>
       </div>
     </nav>
-    <!-- /End Main Nav Bar -->
-
+    <!-- /end Main Nav Bar -->
     <!-- /Sub Nav -->
     <div class="row">
       <div class="col-md-12">
@@ -49,21 +47,23 @@
         </div>
       </div>
     </div>
-    <!-- /Sub Nav -->
+    <!-- /end Sub Nav -->
 
-
+    <!-- Begin Main Page Content -->
     <div id="container-fluid">
-    <!-- Begin Page Wrapper -->
+      <!-- Begin Page Wrapper -->
       <div id="page-wrapper">
-        <!--Conacts Section -->
+        <!--Begin Contacts Section -->
         <div class="row">
+            <!-- Begin "col-sm-12" -->
             <div class="col-sm-12">
+                <!-- Begin "white-box-lg" -->
                 <div class="white-box-lg">
                     <h3 class="box-title">Company List
-                      <!-- list and profile icons -->
-                      <td><i class="fas fa-th-large fa-xs float-right alt-type-select"></i></td>
-                      <td><i class="fas fa-th-list fa-xs float-right type-select"></i></td>
-                      <!-- end list and profile icons -->
+                      <!-- Begin List and Profile icons -->
+                      <a class="alt-type-select" href="companies-cards.html"><i class="fas fa-th-large fa-xs float-right"></i></a>
+                      <a class="type-select" href="companies.html"><i class="fas fa-th-list fa-xs float-right"></i></a>
+                      <!-- /end List and Profile icons -->
                     </h3>
                       <!--Begin Alphabet Pagination + Filter/Add Company -->
                       <div class="row">
@@ -101,16 +101,15 @@
                             </ul>
                           </nav>
                         </div>
-                        <!--/End Alphabet Pagination -->
+                        <!--/end Alphabet Pagination -->
                         <!-- Begin Add Company + Fitlter -->
                         <div class="col">
                           <a href="#" class="fas fa-plus float-right"></a><h6 class="float-right">Add Company</h6>
                           <a href="#" class="fas fa-filter float-right"></a><h6 class="float-right">Filter</h6>
                         </div>
-                        <!-- /End Add Company + Fitlter -->
+                        <!-- /end Add Company + Fitlter -->
                       </div>
-                      <!--/End Alphabet Pagination + Filter/Add Companies -->
-                    
+                      <!--/end Alphabet Pagination + Filter/Add Companies -->
                     <!--Begin Contacts Table -->
                     <div class="table">
                         <table class="table table-hover">
@@ -217,13 +216,36 @@
                                 <th><i class="fa fa-ellipsis-h"></i></th>
                             </tr>
                           </tbody>
+                        </table>
                       </div>
+                      <!-- /end Companies Table -->
+                      <!-- Begin Pagination -->
+                      <nav aria-label="...">
+                        <ul class="pagination pagination-sm">
+                          <li class="page-item disabled">
+                            <a class="page-link" href="#" tabindex="-1">Previous</a>
+                          </li>
+                          <li class="page-item"><a class="page-link" href="#">1</a></li>
+                          <li class="page-item"><a class="page-link" href="#">2</a></li>
+                          <li class="page-item"><a class="page-link" href="#">3</a></li>
+                          <li class="page-item">
+                            <a class="page-link" href="#">Next</a>
+                          </li>
+                        </ul>
+                      </nav>
+                      <!-- /end Pagination -->
                 </div>
+                <!-- /end "white-box-lg" -->
             </div>
+            <!-- /end "col-sm-12" -->
         </div>
-        <!-- /Contacts Section -->
-        <footer>
-        </footer>
+        <!-- /end Contacts Section -->
+      </div>
+      <!-- /end Page Wrapper -->
+    </div>
+    <!-- /end Contact List Container -->
+    <footer>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
