@@ -18,10 +18,16 @@
     <!-- Begin Main Nav Bar -->
     <nav class="main-nav navbar navbar-dark bg-dark justify-content-right">
       <button type="button" class="btn btn-outline-light" href="index.html">C</button>
-      <form class="form-inline float-left">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-      </form>
+      <!-- Begin Search Bar -->
+      <div class="col-lg-6">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search for Anything..." aria-label="Search for...">
+          <span class="input-group-btn">
+            <button class="btn btn-secondary" type="button"><i class="fas fa-search"></i></button>
+          </span>
+        </div>
+      </div>
+      <!-- /end Search Bar -->
       <div class="dropdown">
         <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Stuart
@@ -111,7 +117,7 @@
                       </div>
                       <!--/end Alphabet Pagination + Filter/Add Companies -->
                     <!--Begin Contacts Table -->
-                    <div class="table">
+                    <div class="table-sm">
                         <table class="table table-hover">
                           <thead class="thead">
                             <tr>
