@@ -17,7 +17,7 @@
   <body class="body">
     <!-- Begin Main Nav Bar -->
     <nav class="main-nav navbar navbar-dark bg-dark justify-content-right">
-      <button type="button" class="btn btn-outline-light" href="#">C</button>
+      <button type="button" class="btn btn-outline-light" href="index.html">C</button>
       <form class="form-inline float-left">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
@@ -26,7 +26,7 @@
         <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Stuart
         </button>
-        <div class="dropdown-menu">
+        <div class="container dropdown-menu">
           <a class="dropdown-item" href="#">Help</a>
           <a class="dropdown-item" href="#">Settings</a>
           <a class="dropdown-item" href="#">Upgrade</a>
@@ -37,24 +37,18 @@
     </nav>
     <!-- /End Main Nav Bar -->
 
-    <!-- Begin Sub Nav Bar -->
-    <nav>
-      <ul id="sub-nav" class="nav nav-tabs">
-        <li class="nav-item">
-          <a id="active-link-color" class="nav-link active" href="index.html"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contacts.html"><i class="fa fa-user"></i>Contacts</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><i class="far fa-building"></i>Companies</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fas fa-wrench"></i>Tools</a>
-        </li>
-      </ul>
-    </nav>
-    <!-- /End Sub Nav Bar -->
+    <!-- /Alt Sub Nav -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="button-navigation">
+          <a class="button-settings-select" href="#"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
+          <a class="button-settings" href="contacts.html"><i class="fa fa-user"></i>Contacts</a>
+          <a class="button-settings" href="companies.html"><i class="far fa-building"></i>Companies</a>
+          <a class="button-settings" href="#"><i class="fas fa-wrench"></i>Tools</a>
+        </div>
+      </div>
+    </div>
+    <!-- /Alt Sub Nav -->
 
     <div class="container-fluid">
       <!-- Begin Page Wrapper -->
@@ -66,7 +60,7 @@
             <div class="white-box">
               <div class="col-in row">
                 <div class="col-md-6 col-sm-6 col-xs-6">
-                  <h2><i class="fa fa-play fa-sm"></i>Getting Started</h2> 
+                  <h3><i class="fa fa-play fa-sm"></i>Getting Started</h3> 
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                   <ul class="list-group">
@@ -85,7 +79,7 @@
             <div class="white-box">
               <div class="col-in row">
                 <div class="col-md-6 col-sm-6 col-xs-6">
-                    <h2><i class="fa fa-bell fa-sm"></i>Top Reminders</h2> 
+                    <h3><i class="fa fa-bell fa-sm"></i>Top Reminders</h3> 
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                   <div class="list-group">
@@ -123,7 +117,7 @@
         <div class="row">
           <div class="col-sm-12">
               <div class="white-box-favorites" id="favorites">
-                <h2 class="box-title"><i id="fa-star-title" class="fa fa-star"></i>Favorites</h2>
+                <h3 class="box-title"><i id="fa-star-title" class="fa fa-star"></i>Favorites</h3>
                 <div class="table">
                   <table class="table table-hover">
                   <thead class="thead">
