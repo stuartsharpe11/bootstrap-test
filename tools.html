@@ -124,15 +124,59 @@
                           <a class="nav-link" id="export-tab" data-toggle="tab" href="#export" role="tab" aria-controls="export" aria-selected="true">Export</a>
                         </li>
                       </ul>
+                      <!-- Begin Import Tab Content -->
                       <div class="tab-content">
                         <div class="tab-pane active" id="import" role="tabpanel" aria-labelledby="import-tab">
+                          <br>
+                          <!-- Container for all Import Content -->
                           <div class="container">
-                            <br>
-                            <h4>Import Page</h4>
-                            <p>This is content to test the import page.</p>
-                            <p>Download the sample template<i class="fas fa-angle-right"></i></p>
+                            <!-- Row 1 of 2 for Import content -->
+                            <div class="row">
+                              <div class="col">
+                                <p>I want to import a list of...</p>
+                                <div class="form-check">
+                                  <label class="form-check-label">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                    Contacts
+                                  </label>
+                                </div>
+                                <div class="form-check">
+                                  <label class="form-check-label">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                    Companies
+                                  </label>
+                                </div>
+                                <br>
+                                <form>
+                                  <div class="form-group">
+                                    <label for="exampleFormControlFile1">Select a file to upload:</label>
+                                    <input type="file" class="form-control-file" id="import-btn exampleFormControlFile1">
+                                    <label for="exampleFormControlFile1">(.csv or .xls only)</label>
+                                  </div>
+                                </form>
+                              </div>
+                              <!-- /end Left Justified Content -->
+                              <!-- Right Justified Content -->
+                              <div class="col">
+                                <h5>Have you downloaded the sample templates?</h5>
+                                <p>To make your import process as easy as possible, we recommend that you download the sample template. If you'd prefer to use your own, use the form n the next page to indicate how you've organized your file</p>
+                              </div>
+                              <!-- /end Right Justified Content -->
+                            </div>
+                            <!-- /end Row 1 of 2 for Import content -->
+                            <!-- Begin Row 2 of 2 for Next Button -->
+                            <div class="row">
+                              <div class="col">
+                                <div>
+                                  <a class="import-btn" href="#">Next<i class="fas fa-long-arrow-alt-right fa-lg" id="chrome-arrow"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- /end Row 2 of 2 for Next Button -->
                           </div>
+                          <!-- /end Container for all Import Content -->
                         </div>
+                        <!-- /end Import Tab Content -->
                         <div class="tab-pane" id="export" role="tabpanel" aria-labelledby="export-tab">
                           <div class="container">
                             <br>
@@ -158,6 +202,7 @@
                           </div>
                         </div>
                       </div>
+                      <!-- /end Tab Content -->
                     </div>
                     <!-- /end Data Migration Section -->
 
@@ -178,11 +223,12 @@
                         <div class="tab-pane active" id="chrome" role="tabpanel" aria-labelledby="chrome-tab">
                           <div class="container">
                             <br>
-                            <p>Life is better with a Chrome Extension:</p>
-                            <a class="import-btn" href="https://chrome.google.com/webstore/category/apps" target="_blank">Go to the Chrome Store<i class="fas fa-long-arrow-alt-right fa-lg" id="chrome-arrow"></i></a>
+                            <div class="col-sm-5 float-left">
+                              <p>Life is better with a Chrome Extension:</p>
+                              <a class="import-btn" href="https://chrome.google.com/webstore/category/apps" target="_blank">Chrome Store<i class="fas fa-long-arrow-alt-right fa-lg" id="chrome-arrow"></i></a>
+                            </div>
                           </div>
                         </div>
-
                         <div class="tab-pane" id="template-file" role="tabpanel" aria-labelledby="template-file-tab">
                           <div class="container">
                             <br>
@@ -237,11 +283,11 @@
                           </div>
                         </div>
                         <div class="tab-pane" id="email-support" role="tabpanel" aria-labelledby="email-support-tab">
-                          <div class="container">
+                          <div class="container col-sm-5 float-left">
                             <br>
-                            <h3>Help Center</h3>
+                            <h5>Help Center</h5>
                             <p>Have a question? Send us an email and we'll get back to you as soon as we can.</p>
-                            <form class="col-sm-5">
+                            <form>
                               <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Name">
                               </div>
@@ -275,6 +321,7 @@
     <!-- /end Tools Container -->
 
     <!-- Optional JavaScript -->
+    <!-- JS for Tools Section -->
     <script>
       $(function () {
         $('#myTab a:last').tab('show')
