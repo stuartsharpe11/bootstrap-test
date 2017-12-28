@@ -242,7 +242,7 @@ footer {
     font-size: 16px;
     margin: 4px 0px 10px 0px;
     cursor: pointer;
-    width: 49%;
+    width: 45%;
     border-radius: 3.5px;
 }
 
@@ -256,7 +256,7 @@ footer {
     font-size: 16px;
     margin: 4px 0px 10px 0px;
     cursor: pointer;
-    width: 49%;
+    width: 45%;
     border-radius: 3.5px;
 }
 /* /end Data Migration */
@@ -286,8 +286,6 @@ footer {
 #v-pills-tab {
 	border-right: 1px solid rgba(0,0,0,.1)
 }
-
-
 
 
 

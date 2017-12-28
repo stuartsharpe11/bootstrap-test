@@ -116,53 +116,73 @@
                       <!-- /end Social Accounts Section -->
 
 
-                      <!-- Begin Data Migration Section -->
+
+
+
+
+
+<!-- Begin Data Migration Section -->
                       <div class="tab-pane fade" id="v-pills-data-migration" role="tabpanel" aria-labelledby="v-pills-profile-tab">
                         <!-- Added Section -->
                         <h3>Data Migration</h3>
                         <hr>
-                        <div>
-                          <a class="button-tools-select" href="#">Import</a>
-                          <a class="button-tools-deselect" href="#">Export</a>
-                        </div>
-                        <div class="container">
-                          <div class="col-sm-5 float-left">
-                            <p>I want to import a list of...</p>
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                                Contacts
-                              </label>
-                            </div>
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                                Companies
-                              </label>
-                            </div>
-                            <form>
-                              <div class="form-group">
-                                <label for="exampleFormControlFile1">Select a file to upload:</label>
-                                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                          <ul class="nav nav-pills nav-fill" id="myTab" role="tablist">
+                            <li class="nav-item">
+                              <a class="nav-link active" id="import-tab" data-toggle="tab" href="#import" role="tab" aria-controls="import" aria-selected="true">Import</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" id="export-tab" data-toggle="tab" href="#export" role="tab" aria-controls="export" aria-selected="false">Export</a>
+                            </li>
+                          </ul>
+
+                          <div class="tab-content">
+                            <div class="tab-pane active" id="import-tab" role="tabpanel" aria-labelledby="import-tab">
+                              <div class="container">
+                                <div class="col-sm-5 float-left">
+                                  <p>I want to import a list of...</p>
+                                  <div class="form-check">
+                                    <label class="form-check-label">
+                                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                      Contacts
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <label class="form-check-label">
+                                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                      Companies
+                                    </label>
+                                  </div>
+                                  <form>
+                                    <div class="form-group">
+                                      <label for="exampleFormControlFile1">Select a file to upload:</label>
+                                      <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                    </div>
+                                  </form>
+                                  <p>(.csv or .xls only)</p>
+                                  <div>
+                                    <a class="import-btn float-right" href="#">Next<i class="fas fa-long-arrow-alt-right fa-lg" id="chrome-arrow"></i></a>
+                                  </div>
+                                  <div class="col-sm-5 float-right" style="padding-left: 30px;">
+                                      <h4>Have you downloaded the sample templates?</h4>
+                                      <p>To make your import process as easy as possible, we recommend that you download the sample template. If you'd prefer to use your own, use the form n the next page to indicate how you've organized your file</p>
+                                      <p>Download the sample template<i class="fas fa-angle-right"></i></p>
+                                  </div>
+                                </div>
                               </div>
-                            </form>
-                            <p>(.csv or .xls only)</p>
-                          <div>
-                            <a class="import-btn float-right" href="#">Next<i class="fas fa-long-arrow-alt-right fa-lg" id="chrome-arrow"></i></a>
-                          </div>
-                          </div>
-                          <div class="col-sm-5 float-right" style="padding-left: 30px;">
-                              <h4>Have you downloaded the sample templates?</h4>
-                              <p>To make your import process as easy as possible, we recommend that you download the sample template. If you'd prefer to use your own, use the form n the next page to indicate how you've organized your file</p>
-                              <p>Download the sample template<i class="fas fa-angle-right"></i></p>
-                          </div>
-                        </div>
+                            </div>
 
-
-                        <!-- Added Section -->
-                      </div>
-
+                            </div>
+                            <div class="tab-pane" id="export" role="tabpanel" aria-labelledby="export-tab">...
+                            </div>
+                          </div>
                       <!-- /end Data Migration Section -->
+
+
+
+
+
+
+
 
 
                       <!-- Begin Downloads Section -->
@@ -226,6 +246,11 @@
     </footer>
 
     <!-- Optional JavaScript -->
+    <script>
+      $(function () {
+        $('#myTab a:last').tab('show')
+      })
+    </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
