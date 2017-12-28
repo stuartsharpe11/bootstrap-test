@@ -124,7 +124,7 @@
                           <a class="nav-link" id="export-tab" data-toggle="tab" href="#export" role="tab" aria-controls="export" aria-selected="true">Export</a>
                         </li>
                       </ul>
-                      <!-- Begin Import Tab Content -->
+                      <!-- Begin All Tab Content -->
                       <div class="tab-content">
                         <div class="tab-pane active" id="import" role="tabpanel" aria-labelledby="import-tab">
                           <br>
@@ -177,34 +177,58 @@
                           <!-- /end Container for all Import Content -->
                         </div>
                         <!-- /end Import Tab Content -->
+                        <!-- Begin Export Tab Content -->
                         <div class="tab-pane" id="export" role="tabpanel" aria-labelledby="export-tab">
                           <div class="container">
                             <br>
-                            <div class="col-sm-5 float-left">
-                              <p>I want to export a list of...</p>
-                              <div class="form-check">
-                                <label class="form-check-label">
-                                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                                  Contacts
-                                </label>
+                            <!-- Container for all Import Content -->
+                            <div class="container">
+                              <!-- Row 1 of 2 for Import content -->
+                              <div class="row">
+                                <div class="col">
+                                  <p>I want to import a list of...</p>
+                                  <div class="form-check">
+                                    <label class="form-check-label">
+                                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                      Contacts
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <label class="form-check-label">
+                                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                      Companies
+                                    </label>
+                                  </div>
+                                  <br>
+                                </div>
+                                <!-- /end Left Justified Content -->
+                                <!-- Right Justified Content -->
+                                <div class="col">
+                                  <h5>Need to export your data? It shouldn't be so hard.</h5>
+                                  <p>Simply select what you'd like to export and click 'Export' and you've got it!</p>
+                                </div>
+                                <!-- /end Right Justified Content -->
                               </div>
-                              <div class="form-check">
-                                <label class="form-check-label">
-                                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                                  Companies
-                                </label>
+                              <!-- /end Row 1 of 2 for Import content -->
+                              <!-- Begin Row 2 of 2 for Next Button -->
+                              <div class="row">
+                                <div class="col">
+                                  <div>
+                                    <a class="import-btn" href="#">Export<i class="fas fa-cloud-download-alt fa-lg" id="chrome-arrow"></i></a>
+                                  </div>
+                                </div>
                               </div>
-                              <br>
-                              <div>
-                                <a class="import-btn" href="#">Export<i class="fas fa-cloud-download-alt fa-lg" id="chrome-arrow"></i></a>
-                              </div>
+                              <!-- /end Row 2 of 2 for Next Button -->
                             </div>
+                            <!-- /end Container for all Export Content -->
                           </div>
                         </div>
+                        <!-- /end Export Tab Content -->
                       </div>
-                      <!-- /end Tab Content -->
+                      <!-- /end All Tab Content -->
                     </div>
                     <!-- /end Data Migration Section -->
+
 
                     <!-- Begin Downloads Section -->
                     <div class="tab-pane fade" id="v-pills-downloads" role="tabpanel" aria-labelledby="v-pills-downloads-tab">
@@ -223,10 +247,27 @@
                         <div class="tab-pane active" id="chrome" role="tabpanel" aria-labelledby="chrome-tab">
                           <div class="container">
                             <br>
-                            <div class="col-sm-5 float-left">
-                              <p>Life is better with a Chrome Extension:</p>
-                              <a class="import-btn" href="https://chrome.google.com/webstore/category/apps" target="_blank">Chrome Store<i class="fas fa-long-arrow-alt-right fa-lg" id="chrome-arrow"></i></a>
+                            <!-- Container for all Chrome Content -->
+                            <div class="container">
+                              <!-- Row for Chrome content -->
+                              <div class="row">
+                                <div class="col-sm-6">
+                                  <h5>Life is better with a Chrome Extension:</h5>
+                                  <p>The chrome extension is a great way to add contacts directly from LinkedIn and other social networks. It matches the profile with the data in your system.</p>
+                                </div>
+                              </div>
+                              <!-- /end Row 1 of 2 for Chrome content -->
+                              <!-- Begin Row 2 of 2 for Download Button -->
+                              <div class="row">
+                                <div class="col">
+                                  <div>
+                                    <a class="import-btn" href="https://chrome.google.com/webstore/category/extensions">Download<i class="fas fa-cloud-download-alt fa-lg" id="chrome-arrow"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- /end Row 2 of 2 for Download Button -->
                             </div>
+                            <!-- /end Container for all Chrome Section -->
                           </div>
                         </div>
                         <div class="tab-pane" id="template-file" role="tabpanel" aria-labelledby="template-file-tab">
@@ -256,6 +297,7 @@
                       </div>
                     </div>
                     <!-- /end Downloads Section -->
+
 
                     <!-- Begin Help Center Section -->
                     <div class="tab-pane fade" id="v-pills-help" role="tabpanel" aria-labelledby="v-pills-help-tab">
