@@ -17,7 +17,7 @@
   <body class="body">
 
     <!-- Begin Main Nav Bar -->
-    <nav class="main-nav navbar navbar-dark bg-dark justify-content-right">
+    <nav class="main-nav navbar navbar-dark bg-dark justify-content-right sticky-top">
       <button type="button" class="btn btn-outline-light" href="index.html">C</button>
       <!-- Begin Search Bar -->
       <div class="col-lg-6">
@@ -116,53 +116,149 @@
                       <!-- /end Social Accounts Section -->
 
 
-                      <!-- Begin Data Migration Section -->
-                      <div class="tab-pane fade" id="v-pills-data-migration" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                        <!-- Added Section -->
+
+
+
+
+
+
+
+
+
+
+
+                      <!-- Begin Data Migration -->
+                      <div class="tab-pane fade" id="v-pills-data-migration" role="tabpanel" aria-labelledby="v-pills-data-migration-tab">
                         <h3>Data Migration</h3>
                         <hr>
-                        <div>
-                          <a class="button-tools-select" href="#">Import</a>
-                          <a class="button-tools-deselect" href="#">Export</a>
-                        </div>
-                        <div class="container">
-                          <div class="col-sm-5 float-left">
-                            <p>I want to import a list of...</p>
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                                Contacts
-                              </label>
-                            </div>
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                                Companies
-                              </label>
-                            </div>
-                            <form>
-                              <div class="form-group">
-                                <label for="exampleFormControlFile1">Select a file to upload:</label>
-                                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                        <ul class="nav nav-pills nav-fill" id="myTab" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active" id="import-tab" data-toggle="tab" href="#import" role="tab" aria-controls="import" aria-selected="true">Import</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="export-tab" data-toggle="tab" href="#export" role="tab" aria-controls="export" aria-selected="true">Export</a>
+                          </li>
+                        </ul>
+                        <!-- Begin All Section Content -->
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="import" role="tabpanel" aria-labelledby="import-tab">
+                            <br>
+                            <!-- Container for all Import Content -->
+                            <div class="container">
+                              <!-- Row 1 of 2 for Import content -->
+                              <div class="row">
+                                <div class="col">
+                                  <p>I want to import a list of...</p>
+                                  <div class="form-check">
+                                    <label class="form-check-label">
+                                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                      Contacts
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <label class="form-check-label">
+                                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                      Companies
+                                    </label>
+                                  </div>
+                                  <br>
+                                  <form>
+                                    <div class="form-group">
+                                      <label for="exampleFormControlFile1">Select a file to upload:</label>
+                                      <input type="file" class="form-control-file" id="import-btn exampleFormControlFile1">
+                                      <label for="exampleFormControlFile1">(.csv or .xls only)</label>
+                                    </div>
+                                  </form>
+                                </div>
+                                <!-- /end Left Justified Content -->
+                                <!-- Right Justified Content -->
+                                <div class="col">
+                                  <h5>Have you downloaded the sample templates?</h5>
+                                  <p>To make your import process as easy as possible, we recommend that you download the sample template. If you'd prefer to use your own, use the form n the next page to indicate how you've organized your file</p>
+                                </div>
+                                <!-- /end Right Justified Content -->
                               </div>
-                            </form>
-                            <p>(.csv or .xls only)</p>
-                          <div>
-                            <a class="import-btn float-right" href="#">Next<i class="fas fa-long-arrow-alt-right fa-lg" id="chrome-arrow"></i></a>
+                              <!-- /end Row 1 of 2 for Import content -->
+                              <!-- Begin Row 2 of 2 for Next Button -->
+                              <div class="row">
+                                <div class="col">
+                                  <div>
+                                    <a class="import-btn" href="#">Next<i class="fas fa-long-arrow-alt-right fa-lg" id="chrome-arrow"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- /end Row 2 of 2 for Next Button -->
+                            </div>
+                            <!-- /end Container for all Import Content -->
                           </div>
+                          <!-- /end Import Tab Content -->
+
+
+<!-- ***SHOULD WE ADD "IMPORT 2 HERE?" *** -->
+
+
+                          <!-- Begin Export Tab Content -->
+                          <div class="tab-pane" id="export" role="tabpanel" aria-labelledby="export-tab">
+                            <div class="container">
+                              <br>
+                              <!-- Container for all Import Content -->
+                              <div class="container">
+                                <!-- Row 1 of 2 for Import content -->
+                                <div class="row">
+                                  <div class="col">
+                                    <p>I want to import a list of...</p>
+                                    <div class="form-check">
+                                      <label class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                        Contacts
+                                      </label>
+                                    </div>
+                                    <div class="form-check">
+                                      <label class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                        Companies
+                                      </label>
+                                    </div>
+                                    <br>
+                                  </div>
+                                  <!-- /end Left Justified Content -->
+                                  <!-- Right Justified Content -->
+                                  <div class="col">
+                                    <h5>Need to export your data? It shouldn't be so hard.</h5>
+                                    <p>Simply select what you'd like to export and click 'Export' and you've got it!</p>
+                                  </div>
+                                  <!-- /end Right Justified Content -->
+                                </div>
+                                <!-- /end Row 1 of 2 for Import content -->
+                                <!-- Begin Row 2 of 2 for Next Button -->
+                                <div class="row">
+                                  <div class="col">
+                                    <div>
+                                      <a class="import-btn" href="#">Export<i class="fas fa-cloud-download-alt fa-lg" id="chrome-arrow"></i></a>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- /end Row 2 of 2 for Next Button -->
+                              </div>
+                              <!-- /end Container for all Export Content -->
+                            </div>
                           </div>
-                          <div class="col-sm-5 float-right" style="padding-left: 30px;">
-                              <h4>Have you downloaded the sample templates?</h4>
-                              <p>To make your import process as easy as possible, we recommend that you download the sample template. If you'd prefer to use your own, use the form n the next page to indicate how you've organized your file</p>
-                              <p>Download the sample template<i class="fas fa-angle-right"></i></p>
-                          </div>
+                          <!-- /end Export Tab Content -->
                         </div>
-
-
-                        <!-- Added Section -->
+                        <!-- /end All Tab Content -->
                       </div>
+                      <!-- /end Data Migration -->
 
-                      <!-- /end Data Migration Section -->
+
+
+
+
+
+
+
+
+
+
 
 
                       <!-- Begin Downloads Section -->
