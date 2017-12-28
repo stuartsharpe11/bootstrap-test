@@ -74,46 +74,68 @@
                   <a class="nav-link" id="v-pills-downloads-tab" data-toggle="pill" href="#v-pills-downloads" role="tab" aria-controls="v-pills-downloads" aria-selected="false">Downloads</a>
                   <a class="nav-link" id="v-pills-help-tab" data-toggle="pill" href="#v-pills-help" role="tab" aria-controls="v-pills-help" aria-selected="false">Help Center</a>
                 </div>
-                <!-- End Top Level Tools Nav -->
-                <!-- Begin Sections for Top Level Tools -->
+                <!-- /end Top Level Tools Nav -->
+
+                <!-- Begin "col-sm-10" - All Tool Content -->
                 <div class="col-sm-10">
                   <div class="tab-content" id="v-pills-tabContent">
-                    <!-- Begin Manage Social Accounts Section -->
+
+                    <!-- Begin Manage Social Accounts -->
                     <div class="tab-pane fade show active" id="v-pills-social" role="tabpanel" aria-labelledby="v-pills-social-tab">
                       <h3 class="box-title">Manage Social Accounts</h3>
                       <hr>
-                      <div class="table-responsive">
-                        <table class="table-borderless">
-                          <tbody>
-                            <tr>
-                              <td><i class="fas fa-check"></i><img src="img/linkedin_logo_21px-TM.png" alt="img"></td>
-                              <td><button type="button" class="btn btn-outline-danger">Disconnect</button></td>
-                            </tr>
-                            <tr>
-                              <td><i class="fas fa-check"></i><img src="img/googleplus_logo.svg.png" alt="img";"></td>
-                              <td><button type="button" class="btn btn-outline-success">Connect</button></td>
-                            </tr>
-                            <tr>
-                              <td><i class="fas fa-check"></i><img src="img/facebook_logo.png" alt="img";"></td>
-                              <td><button type="button" class="btn btn-outline-success">Connect</button></td>
-                            </tr>
-                            <tr>
-                              <td><i class="fas fa-check"></i><img src="img/twitter_logo.png" alt="img";"></td><td>
-                              <button type="button" class="btn btn-outline-danger">Disconnect</button></td>
-                            </tr>
-                            <tr>
-                              <td><i class="fas fa-check"></i><img src="img/github_logo.png" alt="img";"></td>
-                              <td><button type="button" class="btn btn-outline-danger">Disconnect</button></td>
-                            </tr>
-                          </tbody>
-                        </table>
+                      <div class="container">
+                        <!-- Begin Row - Social Links + Guide -->
+                        <div class="row">
+                          <!-- Begin Col - Social Links -->
+                          <div class="col">
+                            <!-- Begin table to connect Social Accounts -->
+                            <div class="table-responsive">
+                              <table class="table-borderless">
+                                <tbody>
+                                  <tr>
+                                    <td><i class="fas fa-check"></i><img src="img/linkedin_logo_21px-TM.png" alt="img"></td>
+                                    <td><button type="button" class="btn btn-outline-danger">Disconnect</button></td>
+                                  </tr>
+                                  <tr>
+                                    <td><i class="fas fa-check"></i><img src="img/googleplus_logo.svg.png" alt="img";"></td>
+                                    <td><button type="button" class="btn btn-outline-success">Connect</button></td>
+                                  </tr>
+                                  <tr>
+                                    <td><i class="fas fa-check"></i><img src="img/facebook_logo.png" alt="img";"></td>
+                                    <td><button type="button" class="btn btn-outline-success">Connect</button></td>
+                                  </tr>
+                                  <tr>
+                                    <td><i class="fas fa-check"></i><img src="img/twitter_logo.png" alt="img";"></td><td>
+                                    <button type="button" class="btn btn-outline-danger">Disconnect</button></td>
+                                  </tr>
+                                  <tr>
+                                    <td><i class="fas fa-check"></i><img src="img/github_logo.png" alt="img";"></td>
+                                    <td><button type="button" class="btn btn-outline-danger">Disconnect</button></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                            <!-- /end table to connect Social Accounts -->
+                          </div>
+                          <!-- /end Col - Social Links -->
+                          <!-- Begin Col - Guide -->
+                          <div class="col">
+                            <h5>Why connect social accounts?</h5>
+                            <p>This is to make your life easier. We use your connected accounts to help glean find as much data as we can about your prosepects and ultimately help give you a more personalized approach to recruiting.</p>
+                          </div>
+                          <!-- /end Col - Guide -->
+                        </div>
+                        <!-- /end Row Social Links + Guide -->
                       </div>
                     </div>
-                    <!-- /end Social Accounts Section -->
+                    <!-- /end Manage Social Accounts -->
 
-                    <!-- Begin Data Migration Section -->
+
+
+
+                    <!-- Begin Data Migration -->
                     <div class="tab-pane fade" id="v-pills-data-migration" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                      <!-- Added Section -->
                       <h3>Data Migration</h3>
                       <hr>
                       <ul class="nav nav-pills nav-fill" id="myTab" role="tablist">
@@ -124,7 +146,7 @@
                           <a class="nav-link" id="export-tab" data-toggle="tab" href="#export" role="tab" aria-controls="export" aria-selected="true">Export</a>
                         </li>
                       </ul>
-                      <!-- Begin All Tab Content -->
+                      <!-- Begin All Section Content -->
                       <div class="tab-content">
                         <div class="tab-pane active" id="import" role="tabpanel" aria-labelledby="import-tab">
                           <br>
@@ -227,12 +249,14 @@
                       </div>
                       <!-- /end All Tab Content -->
                     </div>
-                    <!-- /end Data Migration Section -->
+                    <!-- /end Data Migration -->
 
 
-                    <!-- Begin Downloads Section -->
+
+
+
+                    <!-- Begin Downloads -->
                     <div class="tab-pane fade" id="v-pills-downloads" role="tabpanel" aria-labelledby="v-pills-downloads-tab">
-                      <!-- Added Section -->
                       <h3>Downloads</h3>
                       <hr>
                       <ul class="nav nav-pills nav-fill" id="myTab" role="tablist">
@@ -244,6 +268,7 @@
                         </li>
                       </ul>
                       <div class="tab-content">
+                        <!-- Begin Chrome Extension Section -->
                         <div class="tab-pane active" id="chrome" role="tabpanel" aria-labelledby="chrome-tab">
                           <div class="container">
                             <br>
@@ -261,7 +286,7 @@
                               <div class="row">
                                 <div class="col">
                                   <div>
-                                    <a class="import-btn" href="https://chrome.google.com/webstore/category/extensions">Download<i class="fas fa-cloud-download-alt fa-lg" id="chrome-arrow"></i></a>
+                                    <a class="import-btn" href="https://chrome.google.com/webstore/category/extensions" target="_blank">Chrome Store<i class="fas fa-external-link-alt fa-lg" id="chrome-arrow"></i></a>
                                   </div>
                                 </div>
                               </div>
@@ -270,38 +295,57 @@
                             <!-- /end Container for all Chrome Section -->
                           </div>
                         </div>
+                        <!-- /end Chrome Extension Section -->
+                        <!-- Begin Template Files Section -->
                         <div class="tab-pane" id="template-file" role="tabpanel" aria-labelledby="template-file-tab">
                           <div class="container">
                             <br>
-                            <div class="col-sm-5 float-left">
-                              <p>Which template file(s) would you like to download?</p>
-                              <div class="form-check">
-                                <label class="form-check-label">
-                                  <input class="form-check-input" type="checkbox" name="contacts" value="option1">
-                                  Contacts
-                                </label>
+                            <!-- Container for all Downloads -->
+                            <div class="container">
+                              <!-- Row 1 of 2 for Template Files content -->
+                              <div class="row">
+                                <div class="col-sm-6">
+                                  <p>Which template file(s) would you like to download?</p>
+                                  <div class="form-check">
+                                    <label class="form-check-label">
+                                      <input class="form-check-input" type="checkbox" name="contacts" value="option1">
+                                      Contacts
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <label class="form-check-label">
+                                      <input class="form-check-input" type="checkbox" name="companies" value="option2">
+                                      Companies
+                                    </label>
+                                  </div>
+                                </div>
                               </div>
-                              <div class="form-check">
-                                <label class="form-check-label">
-                                  <input class="form-check-input" type="checkbox" name="companies" value="option2">
-                                  Companies
-                                </label>
+                              <!-- /end Row 1 of 2 for Template Files content -->
+                              <!-- Begin Row 2 of 2 for Download Button -->
+                              <div class="row">
+                                <div class="col">
+                                  <div>
+                                    <a class="import-btn" href="#">Download Template<i class="fas fa-cloud-download-alt fa-lg" id="chrome-arrow"></i></a>
+                                  </div>
+                                </div>
                               </div>
-                              <br>
-                              <div>
-                                <a class="import-btn" href="#">Download<i class="fas fa-cloud-download-alt fa-lg" id="chrome-arrow"></i></a>
-                              </div>
+                              <!-- /end Row 2 of 2 for Download Button -->
                             </div>
+                            <!-- /end Container for all Chrome Section -->
                           </div>
                         </div>
+                        <!-- /end Template Files Section -->
                       </div>
                     </div>
-                    <!-- /end Downloads Section -->
+                    <!-- /end Downloads -->
 
 
-                    <!-- Begin Help Center Section -->
+
+
+
+                    <!-- Begin Help Center -->
                     <div class="tab-pane fade" id="v-pills-help" role="tabpanel" aria-labelledby="v-pills-help-tab">
-                      <h3>Downloads</h3>
+                      <h3>Help Center</h3>
                       <hr>
                       <ul class="nav nav-pills nav-fill" id="myTab" role="tablist">
                         <li class="nav-item">
@@ -327,8 +371,8 @@
                         <div class="tab-pane" id="email-support" role="tabpanel" aria-labelledby="email-support-tab">
                           <div class="container col-sm-5 float-left">
                             <br>
-                            <h5>Help Center</h5>
-                            <p>Have a question? Send us an email and we'll get back to you as soon as we can.</p>
+                            <h5>We want to help</h5>
+                            <p>Have a question? Send us a note</p>
                             <form>
                               <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Name">
@@ -345,10 +389,13 @@
                         </div>
                       </div>
                     </div>
-                    <!-- /end Help Center Section -->
+                    <!-- /end Help Center -->
+
+
+
                   </div>
                 </div>
-                <!-- /end Section for Top Level Tools -->                  
+                <!-- /end "col-sm-10" - All Tool Content -->                 
               </div>
               <!-- /end Row -->
             </div>
