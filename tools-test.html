@@ -65,7 +65,7 @@
           <!-- Begin "col-sm-12" -->
           <div class="col-sm-12">
               <!-- Begin white box -->
-              <div class="white-box-lg">
+              <div class="white-box">
 
                 <!-- Begin All Tools Content -->
                 <div class="row">
@@ -115,123 +115,95 @@
                       </div>
                       <!-- /end Social Accounts Section -->
 
+
                       <!-- Begin Data Migration Section -->
                       <div class="tab-pane fade" id="v-pills-data-migration" role="tabpanel" aria-labelledby="v-pills-profile-tab">
                         <!-- Added Section -->
                         <h3>Data Migration</h3>
                         <hr>
-                        <ul class="nav nav-pills nav-fill" id="myTab" role="tablist">
-                          <li class="nav-item">
-                            <a class="nav-link active" id="import-tab" data-toggle="tab" href="#import" role="tab" aria-controls="import" aria-selected="true">Import</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" id="export-tab" data-toggle="tab" href="#export" role="tab" aria-controls="export" aria-selected="true">Export</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content">
-                          <div class="tab-pane active" id="import" role="tabpanel" aria-labelledby="import-tab">
-                            <div class="container">
-                              <br>
-                              <h4>Import Page</h4>
-                              <p>This is content to test the import page.</p>
-                              <p>Download the sample template<i class="fas fa-angle-right"></i></p>
+                        <div>
+                          <a class="button-tools-select" href="#">Import</a>
+                          <a class="button-tools-deselect" href="#">Export</a>
+                        </div>
+                        <div class="container">
+                          <div class="col-sm-5 float-left">
+                            <p>I want to import a list of...</p>
+                            <div class="form-check">
+                              <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                Contacts
+                              </label>
                             </div>
+                            <div class="form-check">
+                              <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                Companies
+                              </label>
+                            </div>
+                            <form>
+                              <div class="form-group">
+                                <label for="exampleFormControlFile1">Select a file to upload:</label>
+                                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                              </div>
+                            </form>
+                            <p>(.csv or .xls only)</p>
+                          <div>
+                            <a class="import-btn float-right" href="#">Next<i class="fas fa-long-arrow-alt-right fa-lg" id="chrome-arrow"></i></a>
                           </div>
-
-                          <div class="tab-pane" id="export" role="tabpanel" aria-labelledby="export-tab">
-                            <div class="container">
-                              <br>
-                              <h4>Export Page</h4>
-                              <p>This is the export page<p>
-                            </div>
+                          </div>
+                          <div class="col-sm-5 float-right" style="padding-left: 30px;">
+                              <h4>Have you downloaded the sample templates?</h4>
+                              <p>To make your import process as easy as possible, we recommend that you download the sample template. If you'd prefer to use your own, use the form n the next page to indicate how you've organized your file</p>
+                              <p>Download the sample template<i class="fas fa-angle-right"></i></p>
                           </div>
                         </div>
+
+
+                        <!-- Added Section -->
                       </div>
+
                       <!-- /end Data Migration Section -->
+
 
                       <!-- Begin Downloads Section -->
                       <div class="tab-pane fade" id="v-pills-downloads" role="tabpanel" aria-labelledby="v-pills-downloads-tab">
                         <!-- Added Section -->
                         <h3>Downloads</h3>
                         <hr>
-                        <ul class="nav nav-pills nav-fill" id="myTab" role="tablist">
-                          <li class="nav-item">
-                            <a class="nav-link active" id="chrome-tab" data-toggle="tab" href="#chrome" role="tab" aria-controls="chrome" aria-selected="true">Chrome Extension</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" id="template-file-tab" data-toggle="tab" href="#template-file" role="tab" aria-controls="template-file" aria-selected="true">Template Files</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content">
-                          <div class="tab-pane active" id="chrome" role="tabpanel" aria-labelledby="chrome-tab">
-                            <div class="container">
-                              <br>
-                              <p>Life is better with a Chrome Extension:</p>
-                              <a class="import-btn" href="https://chrome.google.com/webstore/category/apps" target="_blank">Go to the Chrome Store<i class="fas fa-long-arrow-alt-right fa-lg" id="chrome-arrow"></i></a>
-                            </div>
-                          </div>
-
-                          <div class="tab-pane" id="template-file" role="tabpanel" aria-labelledby="template-file-tab">
-                            This is content to test the export page.
-                          </div>
+                        <div>
+                          <a class="button-tools-select" href="#">Chrome Extension</a>
+                          <a class="button-tools-deselect" href="#">Template Files</a>
                         </div>
+                        <br>
+                        <div>
+                            <p>Click here to download the chrome extension:</p>
+                            <a class="import-btn" href="https://chrome.google.com/webstore/category/apps" target="_blank">Download Extension<i class="fas fa-long-arrow-alt-right fa-lg" id="chrome-arrow"></i></a>
+                        </div>
+                        <!-- Added Section -->
                       </div>
                       <!-- /end Downloads Section -->
+
 
                       <!-- Begin Help Center Section -->
                       <div class="tab-pane fade" id="v-pills-help" role="tabpanel" aria-labelledby="v-pills-help-tab">
                         <!-- Added Section -->
                         <h3>Downloads</h3>
                         <hr>
-                        <ul class="nav nav-pills nav-fill" id="myTab" role="tablist">
-                          <li class="nav-item">
-                            <a class="nav-link active" id="help-docs-tab" data-toggle="tab" href="#help-docs" role="tab" aria-controls="help-docs" aria-selected="true">Help Documents</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" id="email-support-tab" data-toggle="tab" href="#email-support" role="tab" aria-controls="email-support" aria-selected="true">Email Support</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content">
-                          <div class="tab-pane active" id="help-docs" role="tabpanel" aria-labelledby="help-docs-tab">
-                            <div class="container">
-                              <br>
-                              <h5>Frequently Asked Questions</h5>
-                                <ul class="list-group">
-                                  <li class="list-group-item">How do I import my contact lists?</li>
-                                  <li class="list-group-item">Am I going crazy?</li>
-                                  <li class="list-group-item">How would I even know?</li>
-                                  <li class="list-group-item">Very good question, right?</li>
-                                </ul>
-                            </div>
-                          </div>
-
-                          <div class="tab-pane" id="email-support" role="tabpanel" aria-labelledby="email-support-tab">
-                            <div class="container">
-                                        <br>
-                                        <h3>Help Center</h3>
-                                        <p>Have a question? Send us an email and we'll get back to you as soon as we can.</p>
-                                        <form class="col-sm-5">
-                                          <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Name">
-                                          </div>
-                                          <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Subject">
-                                          </div>
-                                          <div class="form-group">
-                                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="7"></textarea>
-                                          </div>
-                                          <button type="submit" class="btn btn-primary">Submit</button>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /.row -->
-                          </div>
+                        <div>
+                          <a class="button-tools-select" href="#">Help Documents</a>
+                          <a class="button-tools-deselect" href="#">Email Support</a>
                         </div>
+                        <br>
+                        <h5>Frequently Asked Questions</h5>
+                        <ul class="list-group">
+                          <li class="list-group-item">How do I import my contact lists?</li>
+                          <li class="list-group-item">Am I going crazy?</li>
+                          <li class="list-group-item">How would I even know?</li>
+                          <li class="list-group-item">Very good question, right?</li>
+                        </ul>
+                        <!-- Added Section -->
                       </div>
-                      <!-- /end Help Center Section -->
-
-
+                      <!-- End Help Center Section -->
 
                     </div>
                   </div>
@@ -254,11 +226,6 @@
     </footer>
 
     <!-- Optional JavaScript -->
-    <script>
-      $(function () {
-        $('#myTab a:last').tab('show')
-      })
-    </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
