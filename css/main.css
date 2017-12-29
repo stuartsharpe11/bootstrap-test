@@ -340,5 +340,9 @@ footer {
 /* /end Import Form */
 
 
+/* Modals */
+.modal-click {
+    cursor:pointer;
+}
 
-
+/* /end Modals */

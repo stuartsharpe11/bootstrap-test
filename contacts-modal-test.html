@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Cliq - The Mindful CRM for Recruiters</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- FontAwesome5 CDN -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+  </head>
+
+  <body class="body">
+
+    <!-- Begin Main Nav Bar -->
+    <nav class="main-nav navbar navbar-dark bg-dark justify-content-right sticky-top">
+      <button type="button" class="btn btn-outline-light" href="index.html">C</button>
+      <!-- Begin Search Bar -->
+      <div class="col-lg-6">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search for Anything..." aria-label="Search for...">
+          <span class="input-group-btn">
+            <button class="btn btn-secondary" type="button"><i class="fas fa-search"></i></button>
+          </span>
+        </div>
+      </div>
+      <!-- /end Search Bar -->
+      <div class="dropdown">
+        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Stuart
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Help</a>
+          <a class="dropdown-item" href="tools.html">Settings</a>
+          <a class="dropdown-item" href="#">Upgrade</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Log Out</a>
+        </div>
+      </div>
+    </nav>
+    <!-- /end Main Nav Bar -->
+    <!-- Begin Sub Nav -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="button-navigation">
+          <a class="button-settings" href="index.html"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
+          <a class="button-settings-select" href="contacts.html"><i class="fa fa-user"></i>Contacts</a>
+          <a class="button-settings" href="companies.html"><i class="far fa-building"></i>Companies</a>
+          <a class="button-settings" href="tools.html"><i class="fas fa-wrench"></i>Tools</a>
+        </div>
+      </div>
+    </div>
+    <!-- /end Sub Nav -->
+    <!-- Begin Contact List Container -->
+    <div class="container-fluid">
+      <!-- Begin Page Wrapper -->
+      <div id="page-wrapper">
+        <!-- Begin Contacts Section -->
+        <div class="row equal">
+            <!-- Begin "col-sm-12" -->
+            <div class="col-sm-12">
+                <!-- Begin "white-box-lg" -->
+                <div class="white-box-lg">
+                    <h3 class="box-title">Contact List
+                      <!-- list and profile icons -->
+                      <a class="alt-type-select" href="contacts-cards.html"><i class="fas fa-th-large fa-xs float-right"></i></a>
+                      <a class="type-select" href="contacts.html"><i class="fas fa-th-list fa-xs float-right"></i></a>
+                      <!-- /end list and profile icons -->
+                    </h3>
+                      <!--Begin Alphabet Pagination + Filter/Add Contact -->
+                      <div class="row">
+                        <!-- Begin Alphabet Pagination -->
+                        <div class="col">
+                          <nav aria-label="Page navigation example">
+                            <ul class="pagination pagination-sm">
+                              <li class="page-item"><a class="page-link" href="#">All</a></li>
+                              <li class="page-item"><a class="page-link" href="#">A</a></li>
+                              <li class="page-item"><a class="page-link" href="#">B</a></li>
+                              <li class="page-item"><a class="page-link" href="#">C</a></li>
+                              <li class="page-item"><a class="page-link" href="#">D</a></li>
+                              <li class="page-item"><a class="page-link" href="#">E</a></li>
+                              <li class="page-item"><a class="page-link" href="#">F</a></li>
+                              <li class="page-item"><a class="page-link" href="#">G</a></li>
+                              <li class="page-item"><a class="page-link" href="#">H</a></li>
+                              <li class="page-item"><a class="page-link" href="#">I</a></li>
+                              <li class="page-item"><a class="page-link" href="#">J</a></li>
+                              <li class="page-item"><a class="page-link" href="#">K</a></li>
+                              <li class="page-item"><a class="page-link" href="#">L</a></li>
+                              <li class="page-item"><a class="page-link" href="#">M</a></li>
+                              <li class="page-item"><a class="page-link" href="#">N</a></li>
+                              <li class="page-item"><a class="page-link" href="#">O</a></li>
+                              <li class="page-item"><a class="page-link" href="#">P</a></li>
+                              <li class="page-item"><a class="page-link" href="#">Q</a></li>
+                              <li class="page-item"><a class="page-link" href="#">R</a></li>
+                              <li class="page-item"><a class="page-link" href="#">S</a></li>
+                              <li class="page-item"><a class="page-link" href="#">T</a></li>
+                              <li class="page-item"><a class="page-link" href="#">U</a></li>
+                              <li class="page-item"><a class="page-link" href="#">V</a></li>
+                              <li class="page-item"><a class="page-link" href="#">W</a></li>
+                              <li class="page-item"><a class="page-link" href="#">X</a></li>
+                              <li class="page-item"><a class="page-link" href="#">Y</a></li>
+                              <li class="page-item"><a class="page-link" href="#">Z</a></li>
+                            </ul>
+                          </nav>
+                        </div>
+                        <!--/end Alphabet Pagination -->
+
+
+
+
+
+
+                        <!-- Begin Add Contact + Fitlter -->
+                        <div class="col">
+                          <div class="modal-click" data-toggle="modal" data-target="#AddContactModalCenter">
+                            <i class="fas fa-plus float-right"></i><h6 class="float-right">New Contact</h6>
+                          </div>
+                          <div class="modal-click" data-toggle="modal" data-target="#FilterModalCenter">
+                            <i class="fas fa-filter float-right"></i><h6 class="float-right">Filter</h6>
+                          </div>
+                          <!-- Add Contact Modal -->
+                          <div class="modal fade" id="AddContactModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLongTitle">Create New Contact - Quick Add</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                  <form>
+                                    <div class="form-row">
+                                      <div class="col">
+                                        <input type="text" class="form-control" placeholder="First name">
+                                      </div>
+                                      <div class="col">
+                                        <input type="text" class="form-control" placeholder="Last name">
+                                      </div>
+                                    </div>
+                                  </form>
+                                  <br>
+                                  <form>
+                                  <div class="form-row">
+                                    <div class="col">
+                                      <input type="text" class="form-control" placeholder="Title">
+                                    </div>
+                                    <div class="col">
+                                      <input type="text" class="form-control" placeholder="Current Company">
+                                    </div>
+                                  </div>
+                                  </form>
+                                  <br>
+                                  <form>
+                                    <div class="input-group">
+                                      <input type="text" class="form-control" placeholder="Phone" aria-label="Text input with dropdown button">
+                                      <div class="input-group-append">
+                                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Type</button>
+                                        <div class="dropdown-menu">
+                                          <a class="dropdown-item" href="#">Office</a>
+                                          <a class="dropdown-item" href="#">Cell</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </form>
+                                  <br>
+                                  <form>
+                                    <div class="input-group">
+                                      <input type="text" class="form-control" placeholder="Email" aria-label="Text input with dropdown button">
+                                      <div class="input-group-append">
+                                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Type</button>
+                                        <div class="dropdown-menu">
+                                          <a class="dropdown-item" href="#">Personal</a>
+                                          <a class="dropdown-item" href="#">Work</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </form>
+                                  <br>
+                                  <form>
+                                    <div class="input-group">
+                                      <input type="text" class="form-control" placeholder="Social URL" aria-label="Text input with dropdown button">
+                                      <div class="input-group-append">
+                                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Type</button>
+                                        <div class="dropdown-menu">
+                                          <a class="dropdown-item" href="#">LinkedIn</a>
+                                          <a class="dropdown-item" href="#">Facebook</a>
+                                          <a class="dropdown-item" href="#">Google+</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </form>
+                                  <hr>
+                                  <small id="passwordHelpBlock" class="form-text text-muted">
+                                    Note: This is a 'quick add' feature. To add more details, simply go to the individuals profile page. 
+                                  </small>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                  <button type="button" class="btn btn-primary">Add Contact</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- /end Add Contact Modal -->
+                          <!-- Filter Modal -->
+                          <div class="modal fade" id="FilterModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLongTitle">Filter Contacts</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                    <label class="form-check-label" for="inlineCheckbox1">Company</label>
+                                  </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                  <button type="button" class="btn btn-primary">Filter</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- /end Filter Modal -->
+                        </div>
+                        <!-- /end Add Contact + Fitlter -->
+
+
+
+
+
+                      </div>
+                      <!--/end Alphabet Pagination + Filter/Add Contact -->
+                    <!-- Begin Contacts Table -->
+                    <div class="table-sm">
+                        <table class="table table-hover">
+                          <thead class="thead">
+                            <tr>
+                              <th scope="col"></th>
+                              <th scope="col">Name</th>
+                              <th scope="col">Company</th>
+                              <th scope="col">Position</th>
+                              <th scope="col">Email</th>
+                              <th scope="col">Phone</th>
+                              <th scope="col"></th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                                <td><i class="far fa-star"></i></td>
+                                <td>Name</td>
+                                <td>Company</td>
+                                <td>Position</td>
+                                <td>Email</td>
+                                <td>Phone</td>
+                                <th><i class="fa fa-ellipsis-h"></i></th>
+                            </tr>
+                            <tr>
+                                <td><i class="far fa-star"></i></td>
+                                <td>Name</td>
+                                <td>Company</td>
+                                <td>Position</td>
+                                <td>Email</td>
+                                <td>Phone</td>
+                                <th><i class="fa fa-ellipsis-h"></i></th>
+                            </tr>
+                            <tr>
+                                <td><i class="far fa-star"></i></td>
+                                <td>Name</td>
+                                <td>Company</td>
+                                <td>Position</td>
+                                <td>Email</td>
+                                <td>Phone</td>
+                                <th><i class="fa fa-ellipsis-h"></i></th>
+                            </tr>
+                            <tr>
+                                <td><i class="fas fa-star"></i></td>
+                                <td>Name</td>
+                                <td>Company</td>
+                                <td>Position</td>
+                                <td>Email</td>
+                                <td>Phone</td>
+                                <th><i class="fa fa-ellipsis-h"></i></th>
+                            </tr>
+                            <tr>
+                                <td><i class="far fa-star"></i></td>
+                                <td>Name</td>
+                                <td>Company</td>
+                                <td>Position</td>
+                                <td>Email</td>
+                                <td>Phone</td>
+                                <th><i class="fa fa-ellipsis-h"></i></th>
+                            </tr>
+                            <tr>
+                                <td><i class="far fa-star"></i></td>
+                                <td>Name</td>
+                                <td>Company</td>
+                                <td>Position</td>
+                                <td>Email</td>
+                                <td>Phone</td>
+                                <th><i class="fa fa-ellipsis-h"></i></th>
+                            </tr>
+                            <tr>
+                                <td><i class="far fa-star"></i></td>
+                                <td>Name</td>
+                                <td>Company</td>
+                                <td>Position</td>
+                                <td>Email</td>
+                                <td>Phone</td>
+                                <th><i class="fa fa-ellipsis-h"></i></th>
+                            </tr>
+                            <tr>
+                                <td><i class="far fa-star"></i></td>
+                                <td>Name</td>
+                                <td>Company</td>
+                                <td>Position</td>
+                                <td>Email</td>
+                                <td>Phone</td>
+                                <th><i class="fa fa-ellipsis-h"></i></th>
+                            </tr>
+                            <tr>
+                                <td><i class="far fa-star"></i></td>
+                                <td>Name</td>
+                                <td>Company</td>
+                                <td>Position</td>
+                                <td>Email</td>
+                                <td>Phone</td>
+                                <th><i class="fa fa-ellipsis-h"></i></th>
+                            </tr>
+                            <tr>
+                                <td><i class="far fa-star"></i></td>
+                                <td>Name</td>
+                                <td>Company</td>
+                                <td>Position</td>
+                                <td>Email</td>
+                                <td>Phone</td>
+                                <th><i class="fa fa-ellipsis-h"></i></th>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!-- /end Contacts Table -->
+                      <!-- Begin Pagination -->
+                      <nav aria-label="...">
+                        <ul class="pagination pagination-sm">
+                          <li class="page-item disabled">
+                            <a class="page-link" href="#" tabindex="-1">Previous</a>
+                          </li>
+                          <li class="page-item"><a class="page-link" href="#">1</a></li>
+                          <li class="page-item"><a class="page-link" href="#">2</a></li>
+                          <li class="page-item"><a class="page-link" href="#">3</a></li>
+                          <li class="page-item">
+                            <a class="page-link" href="#">Next</a>
+                          </li>
+                        </ul>
+                      </nav>
+                      <!-- /end Pagination -->
+                </div>
+                <!-- /end "white-box-lg" -->
+            </div>
+            <!-- /end "col-sm-12" -->
+        </div>
+        <!-- /end Contacts Section -->
+      </div>
+      <!-- /end Page Wrapper -->
+    </div>
+    <!-- /end Main Page Content -->
+    <footer>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
