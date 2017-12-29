@@ -281,6 +281,11 @@ footer {
 	color: #4ea2be;
 	margin-left: 5px;
 }
+
+#chrome-arrow-left {
+    color: #4ea2be;
+    margin-right: 5px;
+}
 /* /end Downloads */
 
 #v-pills-tab {
