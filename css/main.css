@@ -345,4 +345,9 @@ footer {
     cursor:pointer;
 }
 
+.fas, .fa-times {
+    margin-left: 5px;
+    color: red;
+}
+
 /* /end Modals */
