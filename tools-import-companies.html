@@ -151,45 +151,249 @@
                           <div class="container">
                             <!-- Row 1 of 2 for Import content -->
                             <div class="row">
+                              <!-- Import Form - Contacts -->
                               <div class="col">
-                                <p>I want to import a list of...</p>
-                                <div class="form-check">
-                                  <label class="form-check-label">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                                    Contacts
-                                  </label>
-                                </div>
-                                <div class="form-check">
-                                  <label class="form-check-label">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                                    Companies
-                                  </label>
-                                </div>
+                                <h5>Import Companies</h5>
+                                <p>Choose which column in your document each information type is located in. If you used the sample template, just click the import button!</p>
                                 <br>
-                                <form>
-                                  <div class="form-group">
-                                    <label for="exampleFormControlFile1">Select a file to upload:</label>
-                                    <input type="file" class="form-control-file" id="import-btn exampleFormControlFile1">
-                                    <label for="exampleFormControlFile1">(.csv or .xls only)</label>
+                                <h6>Basic Company Information:</h6>
+                                <br>
+                                <!-- Basic Info Form -->
+                                <div class="row">
+                                  <!-- Left Column -->
+                                  <div class="col">
+                                    <form>
+                                      <div class="form-group row">
+                                        <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">Company</label>
+                                        <select class="col-sm-5 custom-select custom-select-sm">
+                                          <option selected>Choose one</option>
+                                          <option value="1">Column A</option>
+                                          <option value="2">Column B</option>
+                                          <option value="3">Column C</option>
+                                        </select>
+                                      </div>
+                                      <div class="form-group row">
+                                        <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">Phone</label>
+                                        <select class="col-sm-5 custom-select custom-select-sm">
+                                          <option selected>Choose one</option>
+                                          <option value="1">Column A</option>
+                                          <option value="2">Column B</option>
+                                          <option value="3">Column C</option>
+                                        </select>
+                                      </div>
+                                      <div class="form-group row">
+                                        <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">Fax</label>
+                                        <select class="col-sm-5 custom-select custom-select-sm">
+                                          <option selected>Choose one</option>
+                                          <option value="1">Column A</option>
+                                          <option value="2">Column B</option>
+                                          <option value="3">Column C</option>
+                                        </select>
+                                      </div>
+                                    </form>
                                   </div>
-                                </form>
+                                  <!-- /end Left Column -->
+                                  <!-- /end Right Column -->
+                                  <div class="col">
+                                    <form>
+                                      <div class="form-group row">
+                                        <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">Website</label>
+                                        <select class="col-sm-5 custom-select custom-select-sm">
+                                          <option selected>Choose one</option>
+                                          <option value="1">Column A</option>
+                                          <option value="2">Column B</option>
+                                          <option value="3">Column C</option>
+                                        </select>
+                                      </div>
+                                      <div class="form-group row">
+                                        <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">Email 1</label>
+                                        <select class="col-sm-5 custom-select custom-select-sm">
+                                          <option selected>Choose one</option>
+                                          <option value="1">Column A</option>
+                                          <option value="2">Column B</option>
+                                          <option value="3">Column C</option>
+                                        </select>
+                                      </div>
+                                      <div class="form-group row">
+                                        <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">Email 2</label>
+                                        <select class="col-sm-5 custom-select custom-select-sm">
+                                          <option selected>Choose one</option>
+                                          <option value="1">Column A</option>
+                                          <option value="2">Column B</option>
+                                          <option value="3">Column C</option>
+                                        </select>
+                                      </div>
+                                    </form>
+                                  </div>
+                                  <!-- /end Right Column -->
+                                </div>
+                                <!-- /end Basic Info Form -->
+                                <!-- Mailing & Billing Info Form -->
+                                <br>
+                                <div class="row">
+                                  <!-- Left Column -->
+                                  <div class="col">
+                                    <h6>Mailing Address</h6>
+                                    <br>
+                                    <form>
+                                      <div class="form-group row">
+                                        <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">Street</label>
+                                        <select class="col-sm-5 custom-select custom-select-sm">
+                                          <option selected>Choose one</option>
+                                          <option value="1">Column A</option>
+                                          <option value="2">Column B</option>
+                                          <option value="3">Column C</option>
+                                        </select>
+                                      </div>
+                                      <div class="form-group row">
+                                        <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">City</label>
+                                        <select class="col-sm-5 custom-select custom-select-sm">
+                                          <option selected>Choose one</option>
+                                          <option value="1">Column A</option>
+                                          <option value="2">Column B</option>
+                                          <option value="3">Column C</option>
+                                        </select>
+                                      </div>
+                                      <div class="form-group row">
+                                        <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">State</label>
+                                        <select class="col-sm-5 custom-select custom-select-sm">
+                                          <option selected>Choose one</option>
+                                          <option value="1">Column A</option>
+                                          <option value="2">Column B</option>
+                                          <option value="3">Column C</option>
+                                        </select>
+                                      </div>
+                                      <div class="form-group row">
+                                        <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">Zip Code</label>
+                                        <select class="col-sm-5 custom-select custom-select-sm">
+                                          <option selected>Choose one</option>
+                                          <option value="1">Column A</option>
+                                          <option value="2">Column B</option>
+                                          <option value="3">Column C</option>
+                                        </select>
+                                      </div>
+                                    </form>
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                      <label class="form-check-label" for="defaultCheck1">Billing Address same as Mailing Address</label>
+                                    </div>
+                                  </div>
+                                  <!-- /end Left Column -->
+                                  <!-- /end Right Column -->
+                                  <div class="col">
+                                    <h6>Billing Address:</h6>
+                                    <br>
+                                    <form>
+                                      <div class="form-group row">
+                                        <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">Street</label>
+                                        <select class="col-sm-5 custom-select custom-select-sm">
+                                          <option selected>Choose one</option>
+                                          <option value="1">Column A</option>
+                                          <option value="2">Column B</option>
+                                          <option value="3">Column C</option>
+                                        </select>
+                                      </div>
+                                      <div class="form-group row">
+                                        <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">City</label>
+                                        <select class="col-sm-5 custom-select custom-select-sm">
+                                          <option selected>Choose one</option>
+                                          <option value="1">Column A</option>
+                                          <option value="2">Column B</option>
+                                          <option value="3">Column C</option>
+                                        </select>
+                                      </div>
+                                      <div class="form-group row">
+                                        <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">State</label>
+                                        <select class="col-sm-5 custom-select custom-select-sm">
+                                          <option selected>Choose one</option>
+                                          <option value="1">Column A</option>
+                                          <option value="2">Column B</option>
+                                          <option value="3">Column C</option>
+                                        </select>
+                                      </div>
+                                      <div class="form-group row">
+                                        <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">Zip Code</label>
+                                        <select class="col-sm-5 custom-select custom-select-sm">
+                                          <option selected>Choose one</option>
+                                          <option value="1">Column A</option>
+                                          <option value="2">Column B</option>
+                                          <option value="3">Column C</option>
+                                        </select>
+                                      </div>
+                                    </form>
+                                  </div>
+                                  <!-- /end Right Column -->
+                                </div>
+                                <!-- /end Mailing & Billing Info Form -->
+                                <!-- Social Info Form -->
+                                <br>
+                                <div class="row">
+                                  <!-- Left Column -->
+                                  <div class="col">
+                                    <h6>Social Accounts:</h6>
+                                    <br>
+                                    <form>
+                                      <div class="form-group row">
+                                        <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">LinkedIn</label>
+                                        <select class="col-sm-5 custom-select custom-select-sm">
+                                          <option selected>Choose one</option>
+                                          <option value="1">Column A</option>
+                                          <option value="2">Column B</option>
+                                          <option value="3">Column C</option>
+                                        </select>
+                                      </div>
+                                      <div class="form-group row">
+                                        <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">Google+</label>
+                                        <select class="col-sm-5 custom-select custom-select-sm">
+                                          <option selected>Choose one</option>
+                                          <option value="1">Column A</option>
+                                          <option value="2">Column B</option>
+                                          <option value="3">Column C</option>
+                                        </select>
+                                      </div>
+                                    </form>
+                                  </div>
+                                  <!-- /end Left Column -->
+                                  <!-- /end Right Column -->
+                                  <div class="col">
+                                    <br>
+                                    <br>
+                                    <form>
+                                      <div class="form-group row">
+                                        <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">Twitter</label>
+                                        <select class="col-sm-5 custom-select custom-select-sm">
+                                          <option selected>Choose one</option>
+                                          <option value="1">Column A</option>
+                                          <option value="2">Column B</option>
+                                          <option value="3">Column C</option>
+                                        </select>
+                                      </div>
+                                      <div class="form-group row">
+                                        <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">Facebook</label>
+                                        <select class="col-sm-5 custom-select custom-select-sm">
+                                          <option selected>Choose one</option>
+                                          <option value="1">Column A</option>
+                                          <option value="2">Column B</option>
+                                          <option value="3">Column C</option>
+                                        </select>
+                                      </div>
+                                    </form>
+                                  </div>
+                                  <!-- /end Right Column -->
+                                </div>
+                                <!-- /end Social Info Form -->
                               </div>
-                              <!-- /end Left Justified Content -->
-                              <!-- Right Justified Content -->
-                              <div class="col">
-                                <h5>Have you downloaded the sample templates?</h5>
-                                <p>To make your import process as easy as possible, we recommend that you download the sample template. If you'd prefer to use your own, use the form n the next page to indicate how you've organized your file</p>
-                              </div>
-                              <!-- /end Right Justified Content -->
+                              <!-- /end Import Form Contacts -->
                             </div>
                             <!-- /end Row 1 of 2 for Import content -->
                             <!-- Begin Row 2 of 2 for Next Button -->
                             <div class="row">
-                              <div class="col">
-                                <div>
-                                  <a class="import-btn" href="#">Next<i class="fas fa-long-arrow-alt-right fa-lg" id="chrome-arrow"></i></a>
-                                </div>
+                            <div class="col">
+                              <div>
+                                <a class="import-btn" href="tools.html"><i class="fas fa-long-arrow-alt-left fa-lg" id="chrome-arrow-left"></i>Back</a>
+                                <a class="import-btn-submit" href="#">Import</a>
                               </div>
+                            </div>
                             </div>
                             <!-- /end Row 2 of 2 for Next Button -->
                           </div>

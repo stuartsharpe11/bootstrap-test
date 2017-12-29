@@ -69,7 +69,7 @@
 .fas, .fa-wrench {
 	margin-right: 7.5px;
 }
-/* /End Sub Nav Bar */
+/* /end Sub Nav Bar */
 
 
 /* Begin Favorites */
@@ -89,7 +89,7 @@
 .fa, .fa-ellipsis-h {
 	color: #4ea2be;
 }
-/* End Favorites */
+/* /end Favorites */
 
 /* Begin Getting Started */
 .fa, .fa-play {
@@ -121,7 +121,7 @@ li.borderless {
 .fas, .fa-arrow-right{
 	text-align: right;
 }
-/* End Getting Started */
+/* /end Getting Started */
 
 
 /* Begin Reminders */
@@ -129,14 +129,14 @@ li.borderless {
 	margin-right: 10px;
 	color: #fb4c4f
 } 
-/* End Reminders */
+/* /end Reminders */
 
 
 /* Begin Footer */
 footer {
 	background:#F0F0F0;
 }
-/* End Footer */
+/* /end Footer */
 
 
 /* Begin Buttons */
@@ -174,7 +174,7 @@ footer {
 	text-align: center; 
 	padding: 10px 0px 10px 0px;
 }
-/* End Buttons */
+/* /end Buttons */
 
 /*  Begin Profile Cards */
 .card {
@@ -182,8 +182,7 @@ footer {
 	width: 15rem;
 
 }
-/*  /End Profile Cards */
-
+/*  /end Profile Cards */
 
 /*  Begin Contacts & Companies Pages */
 .fas, .fa-th-large, .fa-xs{
@@ -215,7 +214,7 @@ footer {
 .fas, .fa-filter {
 	color: #4ea2be;
 }
-/* /End Contacts & Companies Page */
+/* /end Contacts & Companies Page */
 
 /* Manage Social Accounts */
 .fas, .fa-check {
@@ -223,11 +222,11 @@ footer {
 }
 
 .btn-outline-danger{
-	margin-left: 100px;
+	margin-left: 175px;
 }
 
 .btn-outline-success {
-	margin-left: 100px;
+	margin-left: 175px;
 }
 /* /end Manage Social Accounts */
 
@@ -293,11 +292,6 @@ footer {
 }
 
 
-
-
-
-
-
 /* Begin Import Form */
 .import-btn {
     background-color: white;
@@ -338,4 +332,13 @@ footer {
     cursor: pointer;
     width: 150px;
 }
-/* End Import Form */
+
+.form-check {
+    margin-left: 30px;
+}
+
+/* /end Import Form */
+
+
+
+
