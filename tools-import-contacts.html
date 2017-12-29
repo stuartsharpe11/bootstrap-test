@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Cliq - The Mindful CRM for Recruiters</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- FontAwesome5 CDN -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+  </head>
+
+  <body class="body">
+    <!-- Begin Main Nav Bar -->
+    <nav class="main-nav navbar navbar-dark bg-dark justify-content-right sticky-top">
+      <button type="button" class="btn btn-outline-light" href="index.html">C</button>
+      <!-- Begin Search Bar -->
+      <div class="col-lg-6">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search for Anything..." aria-label="Search for...">
+          <span class="input-group-btn">
+            <button class="btn btn-secondary" type="button"><i class="fas fa-search"></i></button>
+          </span>
+        </div>
+      </div>
+      <!-- /end Search Bar -->
+      <div class="dropdown">
+        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Stuart
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Help</a>
+          <a class="dropdown-item" href="tools.html">Settings</a>
+          <a class="dropdown-item" href="#">Upgrade</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Log Out</a>
+        </div>
+      </div>
+    </nav>
+    <!-- /end Main Nav Bar -->
+    <!-- Begin Sub Nav -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="button-navigation">
+          <a class="button-settings" href="index.html"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
+          <a class="button-settings" href="contacts.html"><i class="fa fa-user"></i>Contacts</a>
+          <a class="button-settings" href="companies.html"><i class="far fa-building"></i>Companies</a>
+          <a class="button-settings-select" href="tools.html"><i class="fas fa-wrench"></i>Tools</a>
+        </div>
+      </div>
+    </div>
+    <!-- /end Sub Nav -->
+
+    <!-- Begin Tools Container -->
+    <div class="container-fluid">
+      <!-- Begin "page-wrapper" -->
+      <div id="page-wrapper">
+        <!-- Begin row -->
+        <div class="row">
+          <!-- Begin "col-sm-12" -->
+          <div class="col-sm-12">
+            <!-- Begin white box -->
+            <div class="white-box-lg">
+              <!-- Begin All Tools Content -->
+              <div class="row">
+                <!-- Begin Top Level Tools Nav -->
+                <div class="nav flex-column nav-pills col-sm-2" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <a class="nav-link active" id="v-pills-social-tab" data-toggle="pill" href="#v-pills-social" role="tab" aria-controls="v-pills-social" aria-selected="true">Social Accounts</a>
+                  <a class="nav-link" id="v-pills-data-migration-tab" data-toggle="pill" href="#v-pills-data-migration" role="tab" aria-controls="v-pills-data-migration" aria-selected="false">Data Migration</a>
+                  <a class="nav-link" id="v-pills-downloads-tab" data-toggle="pill" href="#v-pills-downloads" role="tab" aria-controls="v-pills-downloads" aria-selected="false">Downloads</a>
+                  <a class="nav-link" id="v-pills-help-tab" data-toggle="pill" href="#v-pills-help" role="tab" aria-controls="v-pills-help" aria-selected="false">Help Center</a>
+                </div>
+                <!-- /end Top Level Tools Nav -->
+
+                <!-- Begin "col-sm-10" - All Tool Content -->
+                <div class="col-sm-10">
+                  <div class="tab-content" id="v-pills-tabContent">
+
+                    <!-- Begin Manage Social Accounts -->
+                    <div class="tab-pane fade show active" id="v-pills-social" role="tabpanel" aria-labelledby="v-pills-social-tab">
+                      <h3 class="box-title">Manage Social Accounts</h3>
+                      <hr>
+                      <div class="container">
+                        <!-- Begin Row - Social Links + Guide -->
+                        <div class="row">
+                          <!-- Begin Col - Social Links -->
+                          <div class="col">
+                            <!-- Begin table to connect Social Accounts -->
+                            <div class="table-responsive">
+                              <table class="table-borderless">
+                                <tbody>
+                                  <tr>
+                                    <td><i class="fas fa-check"></i><img src="img/linkedin_logo_21px-TM.png" alt="img"></td>
+                                    <td><button type="button" class="btn btn-outline-danger">Disconnect</button></td>
+                                  </tr>
+                                  <tr>
+                                    <td><i class="fas fa-check"></i><img src="img/googleplus_logo.svg.png" alt="img";"></td>
+                                    <td><button type="button" class="btn btn-outline-success">Connect</button></td>
+                                  </tr>
+                                  <tr>
+                                    <td><i class="fas fa-check"></i><img src="img/facebook_logo.png" alt="img";"></td>
+                                    <td><button type="button" class="btn btn-outline-success">Connect</button></td>
+                                  </tr>
+                                  <tr>
+                                    <td><i class="fas fa-check"></i><img src="img/twitter_logo.png" alt="img";"></td><td>
+                                    <button type="button" class="btn btn-outline-danger">Disconnect</button></td>
+                                  </tr>
+                                  <tr>
+                                    <td><i class="fas fa-check"></i><img src="img/github_logo.png" alt="img";"></td>
+                                    <td><button type="button" class="btn btn-outline-danger">Disconnect</button></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                            <!-- /end table to connect Social Accounts -->
+                          </div>
+                          <!-- /end Col - Social Links -->
+                          <!-- Begin Col - Guide -->
+                          <div class="col">
+                            <h5>Why connect social accounts?</h5>
+                            <p>This is to make your life easier. We use your connected accounts to help glean find as much data as we can about your prosepects and ultimately help give you a more personalized approach to recruiting.</p>
+                          </div>
+                          <!-- /end Col - Guide -->
+                        </div>
+                        <!-- /end Row Social Links + Guide -->
+                      </div>
+                    </div>
+                    <!-- /end Manage Social Accounts -->
+
+                    <!-- Begin Data Migration -->
+                    <div class="tab-pane fade" id="v-pills-data-migration" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                      <h3>Data Migration</h3>
+                      <hr>
+                      <ul class="nav nav-pills nav-fill" id="myTab" role="tablist">
+                        <li class="nav-item">
+                          <a class="nav-link active" id="import-tab" data-toggle="tab" href="#import" role="tab" aria-controls="import" aria-selected="true">Import</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="export-tab" data-toggle="tab" href="#export" role="tab" aria-controls="export" aria-selected="true">Export</a>
+                        </li>
+                      </ul>
+                      <!-- Begin All Section Content -->
+                      <div class="tab-content">
+                        <div class="tab-pane active" id="import" role="tabpanel" aria-labelledby="import-tab">
+                          <br>
+                          <!-- Container for all Import Content -->
+                          <div class="container">
+                            <!-- Row 1 of 2 for Import content -->
+                            <div class="row">
+                              <!-- Import Form - Contacts -->
+                              <div class="col">
+                                <h5>Import Contacts</h5>
+                                <p>Choose which column in your document each information type is located in. If you used the sample template, just click the import button!</p>
+                                <br>
+                                <h6>Basic Information:</h6>
+                                <!-- Basic Info Form -->
+                                <div class="row">
+                                  <!-- Left Column -->
+                                  <div class="col">
+                                    <form>
+                                      <div class="form-group row">
+                                        <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">First Name</label>
+                                        <select class="col-sm-5 custom-select custom-select-sm">
+                                          <option selected>Choose one</option>
+                                          <option value="1">Column A</option>
+                                          <option value="2">Column B</option>
+                                          <option value="3">Column C</option>
+                                        </select>
+                                      </div>
+                                      <div class="form-group row">
+                                        <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">Last Name</label>
+                                        <select class="col-sm-5 custom-select custom-select-sm">
+                                          <option selected>Choose one</option>
+                                          <option value="1">Column A</option>
+                                          <option value="2">Column B</option>
+                                          <option value="3">Column C</option>
+                                        </select>
+                                      </div>
+                                      <div class="form-group row">
+                                        <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">Company</label>
+                                        <select class="col-sm-5 custom-select custom-select-sm">
+                                          <option selected>Choose one</option>
+                                          <option value="1">Column A</option>
+                                          <option value="2">Column B</option>
+                                          <option value="3">Column C</option>
+                                        </select>
+                                      </div>
+                                      <div class="form-group row">
+                                        <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">Title</label>
+                                        <select class="col-sm-5 custom-select custom-select-sm">
+                                          <option selected>Choose one</option>
+                                          <option value="1">Column A</option>
+                                          <option value="2">Column B</option>
+                                          <option value="3">Column C</option>
+                                        </select>
+                                      </div>
+                                      <div class="form-group row">
+                                        <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">Notes</label>
+                                        <select class="col-sm-5 custom-select custom-select-sm">
+                                          <option selected>Choose one</option>
+                                          <option value="1">Column A</option>
+                                          <option value="2">Column B</option>
+                                          <option value="3">Column C</option>
+                                        </select>
+                                      </div>
+                                      <div class="form-group row">
+                                        <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">Tags</label>
+                                        <select class="col-sm-5 custom-select custom-select-sm">
+                                          <option selected>Choose one</option>
+                                          <option value="1">Column A</option>
+                                          <option value="2">Column B</option>
+                                          <option value="3">Column C</option>
+                                        </select>
+                                      </div>
+                                    </form>
+                                  </div>
+                                  <!-- /end Left Column -->
+                                  <!-- /end Right Column -->
+                                  <div class="col">
+                                    <form>
+                                      <div class="form-group row">
+                                        <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">Website</label>
+                                        <select class="col-sm-5 custom-select custom-select-sm">
+                                          <option selected>Choose one</option>
+                                          <option value="1">Column A</option>
+                                          <option value="2">Column B</option>
+                                          <option value="3">Column C</option>
+                                        </select>
+                                      </div>
+                                      <div class="form-group row">
+                                        <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">Phone</label>
+                                        <select class="col-sm-5 custom-select custom-select-sm">
+                                          <option selected>Choose one</option>
+                                          <option value="1">Column A</option>
+                                          <option value="2">Column B</option>
+                                          <option value="3">Column C</option>
+                                        </select>
+                                      </div>
+                                      <div class="form-group row">
+                                        <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">Mobile</label>
+                                        <select class="col-sm-5 custom-select custom-select-sm">
+                                          <option selected>Choose one</option>
+                                          <option value="1">Column A</option>
+                                          <option value="2">Column B</option>
+                                          <option value="3">Column C</option>
+                                        </select>
+                                      </div>
+                                      <div class="form-group row">
+                                        <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">Fax</label>
+                                        <select class="col-sm-5 custom-select custom-select-sm">
+                                          <option selected>Choose one</option>
+                                          <option value="1">Column A</option>
+                                          <option value="2">Column B</option>
+                                          <option value="3">Column C</option>
+                                        </select>
+                                      </div>
+                                      <div class="form-group row">
+                                        <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">Email 1</label>
+                                        <select class="col-sm-5 custom-select custom-select-sm">
+                                          <option selected>Choose one</option>
+                                          <option value="1">Column A</option>
+                                          <option value="2">Column B</option>
+                                          <option value="3">Column C</option>
+                                        </select>
+                                      </div>
+                                      <div class="form-group row">
+                                        <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">Email 2</label>
+                                        <select class="col-sm-5 custom-select custom-select-sm">
+                                          <option selected>Choose one</option>
+                                          <option value="1">Column A</option>
+                                          <option value="2">Column B</option>
+                                          <option value="3">Column C</option>
+                                        </select>
+                                      </div>
+                                    </form>
+                                  </div>
+                                  <!-- /end Right Column -->
+                                </div>
+                                <!-- /end Basic Info Form -->
+                              </div>
+                              <!-- /end Import Form Contacts -->
+                            </div>
+                            <!-- /end Row 1 of 2 for Import content -->
+                            <!-- Begin Row 2 of 2 for Next Button -->
+                            <div class="row">
+                            <div class="col">
+                              <div>
+                                <a class="import-btn" href="#">Next<i class="fas fa-long-arrow-alt-right fa-lg" id="chrome-arrow"></i></a>
+                                <a class="import-btn" href="#">Import</a>
+                              </div>
+                            </div>
+                            </div>
+                            <!-- /end Row 2 of 2 for Next Button -->
+                          </div>
+                          <!-- /end Container for all Import Content -->
+                        </div>
+                        <!-- /end Import Tab Content -->
+                        <!-- Begin Export Tab Content -->
+                        <div class="tab-pane" id="export" role="tabpanel" aria-labelledby="export-tab">
+                          <div class="container">
+                            <br>
+                            <!-- Container for all Import Content -->
+                            <div class="container">
+                              <!-- Row 1 of 2 for Import content -->
+                              <div class="row">
+                                <div class="col">
+                                  <p>I want to import a list of...</p>
+                                  <div class="form-check">
+                                    <label class="form-check-label">
+                                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                      Contacts
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <label class="form-check-label">
+                                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                      Companies
+                                    </label>
+                                  </div>
+                                  <br>
+                                </div>
+                                <!-- /end Left Justified Content -->
+                                <!-- Right Justified Content -->
+                                <div class="col">
+                                  <h5>Need to export your data? It shouldn't be so hard.</h5>
+                                  <p>Simply select what you'd like to export and click 'Export' and you've got it!</p>
+                                </div>
+                                <!-- /end Right Justified Content -->
+                              </div>
+                              <!-- /end Row 1 of 2 for Import content -->
+                              <!-- Begin Row 2 of 2 for Next Button -->
+                              <div class="row">
+                                <div class="col">
+                                  <div>
+                                    <a class="import-btn" href="#">Export<i class="fas fa-cloud-download-alt fa-lg" id="chrome-arrow"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- /end Row 2 of 2 for Next Button -->
+                            </div>
+                            <!-- /end Container for all Export Content -->
+                          </div>
+                        </div>
+                        <!-- /end Export Tab Content -->
+                      </div>
+                      <!-- /end All Tab Content -->
+                    </div>
+                    <!-- /end Data Migration -->
+
+                    <!-- Begin Downloads -->
+                    <div class="tab-pane fade" id="v-pills-downloads" role="tabpanel" aria-labelledby="v-pills-downloads-tab">
+                      <h3>Downloads</h3>
+                      <hr>
+                      <ul class="nav nav-pills nav-fill" id="myTab" role="tablist">
+                        <li class="nav-item">
+                          <a class="nav-link active" id="chrome-tab" data-toggle="tab" href="#chrome" role="tab" aria-controls="chrome" aria-selected="true">Chrome Extension</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="template-file-tab" data-toggle="tab" href="#template-file" role="tab" aria-controls="template-file" aria-selected="true">Template Files</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content">
+                        <!-- Begin Chrome Extension Section -->
+                        <div class="tab-pane active" id="chrome" role="tabpanel" aria-labelledby="chrome-tab">
+                          <div class="container">
+                            <br>
+                            <!-- Container for all Chrome Content -->
+                            <div class="container">
+                              <!-- Row for Chrome content -->
+                              <div class="row">
+                                <div class="col-sm-6">
+                                  <h5>Life is better with a Chrome Extension:</h5>
+                                  <p>The chrome extension is a great way to add contacts directly from LinkedIn and other social networks. It matches the profile with the data in your system.</p>
+                                </div>
+                              </div>
+                              <!-- /end Row 1 of 2 for Chrome content -->
+                              <!-- Begin Row 2 of 2 for Download Button -->
+                              <div class="row">
+                                <div class="col">
+                                  <div>
+                                    <a class="import-btn" href="https://chrome.google.com/webstore/category/extensions" target="_blank">Chrome Store<i class="fas fa-external-link-alt fa-lg" id="chrome-arrow"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- /end Row 2 of 2 for Download Button -->
+                            </div>
+                            <!-- /end Container for all Chrome Section -->
+                          </div>
+                        </div>
+                        <!-- /end Chrome Extension Section -->
+                        <!-- Begin Template Files Section -->
+                        <div class="tab-pane" id="template-file" role="tabpanel" aria-labelledby="template-file-tab">
+                          <div class="container">
+                            <br>
+                            <!-- Container for all Downloads -->
+                            <div class="container">
+                              <!-- Row 1 of 2 for Template Files content -->
+                              <div class="row">
+                                <div class="col-sm-6">
+                                  <p>Which template file(s) would you like to download?</p>
+                                  <div class="form-check">
+                                    <label class="form-check-label">
+                                      <input class="form-check-input" type="checkbox" name="contacts" value="option1">
+                                      Contacts
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <label class="form-check-label">
+                                      <input class="form-check-input" type="checkbox" name="companies" value="option2">
+                                      Companies
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- /end Row 1 of 2 for Template Files content -->
+                              <!-- Begin Row 2 of 2 for Download Button -->
+                              <div class="row">
+                                <div class="col">
+                                  <div>
+                                    <a class="import-btn" href="#">Download Template<i class="fas fa-cloud-download-alt fa-lg" id="chrome-arrow"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- /end Row 2 of 2 for Download Button -->
+                            </div>
+                            <!-- /end Container for all Chrome Section -->
+                          </div>
+                        </div>
+                        <!-- /end Template Files Section -->
+                      </div>
+                    </div>
+                    <!-- /end Downloads -->
+
+                    <!-- Begin Help Center -->
+                    <div class="tab-pane fade" id="v-pills-help" role="tabpanel" aria-labelledby="v-pills-help-tab">
+                      <h3>Help Center</h3>
+                      <hr>
+                      <ul class="nav nav-pills nav-fill" id="myTab" role="tablist">
+                        <li class="nav-item">
+                          <a class="nav-link active" id="help-docs-tab" data-toggle="tab" href="#help-docs" role="tab" aria-controls="help-docs" aria-selected="true">Help Documents</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="email-support-tab" data-toggle="tab" href="#email-support" role="tab" aria-controls="email-support" aria-selected="true">Email Support</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content">
+                        <div class="tab-pane active" id="help-docs" role="tabpanel" aria-labelledby="help-docs-tab">
+                          <div class="container">
+                            <br>
+                            <h5>Frequently Asked Questions</h5>
+                              <ul class="list-group">
+                                <li class="list-group-item">How do I import my contact lists?</li>
+                                <li class="list-group-item">Am I going crazy?</li>
+                                <li class="list-group-item">How would I even know?</li>
+                                <li class="list-group-item">Very good question, right?</li>
+                              </ul>
+                          </div>
+                        </div>
+                        <div class="tab-pane" id="email-support" role="tabpanel" aria-labelledby="email-support-tab">
+                          <div class="container col-sm-5 float-left">
+                            <br>
+                            <h5>We want to help</h5>
+                            <p>Have a question? Send us a note</p>
+                            <form>
+                              <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Name">
+                              </div>
+                              <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Subject">
+                              </div>
+                              <div class="form-group">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="7"></textarea>
+                              </div>
+                              <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /end Help Center -->
+                  </div>
+                </div>
+                <!-- /end "col-sm-10" - All Tool Content -->                 
+              </div>
+              <!-- /end Row -->
+            </div>
+            <!-- /end white box -->
+          </div>
+          <!-- /end "col-sm-12" -->
+        </div>
+        <!-- /end row -->
+      </div>
+      <!-- /end "page-wrapper" -->
+    </div>
+    <!-- /end Tools Container -->
+
+    <!-- Optional JavaScript -->
+    <!-- JS for Tools Section -->
+    <script>
+      $(function () {
+        $('#myTab a:last').tab('show')
+      })
+    </script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
