@@ -34,10 +34,15 @@
 	height: 100%;
 }
 
-
 /* Begin Main Nav Bar */
 /**********ADD ANY ADJUSTMENTS HERE**********/
 /* /End Main Nav Bar */
+
+/* Begin Main-Search */
+.main-search {
+    margin: 10px 0px 20px 0px;
+}
+/* /End Main-Search */
 
 /****** Begin Sub Nav Bar ******/
 #sub-nav{
@@ -349,5 +354,5 @@ footer {
     margin-left: 5px;
     color: red;
 }
-
 /* /end Modals */
+

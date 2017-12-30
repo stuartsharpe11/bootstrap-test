@@ -15,51 +15,69 @@
   </head>
 
   <body class="body">
-    <!-- Begin Main Nav Bar -->
-    <nav class="main-nav navbar navbar-dark bg-dark justify-content-right sticky-top">
-      <button type="button" class="btn btn-outline-light" href="index.html">C</button>
-      <!-- Begin Search Bar -->
-      <div class="col-lg-6">
-        <div class="input-group">
-          <input type="text" class="form-control" placeholder="Search for Anything..." aria-label="Search for...">
-          <span class="input-group-btn">
-            <button class="btn btn-secondary" type="button"><i class="fas fa-search"></i></button>
-          </span>
-        </div>
-      </div>
-      <!-- /end Search Bar -->
-      <div class="dropdown">
-        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Stuart
+    <header>
+      <!-- Begin Main Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Help</a>
-          <a class="dropdown-item" href="tools.html">Settings</a>
-          <a class="dropdown-item" href="#">Upgrade</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Log Out</a>
-        </div>
-      </div>
-    </nav>
-    <!-- /end Main Nav Bar -->
-    <!-- /Sub Nav -->
-    <div class="row">
-      <div class="col-md-12">
-        <div class="button-navigation">
-          <a class="button-settings" href="index.html"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
-          <a class="button-settings" href="contacts.html"><i class="fa fa-user"></i>Contacts</a>
-          <a class="button-settings-select" href="companies.html"><i class="far fa-building"></i>Companies</a>
-          <a class="button-settings" href="tools.html"><i class="fas fa-wrench"></i>Tools</a>
-        </div>
-      </div>
-    </div>
-    <!-- /end Sub Nav -->
 
-    <!-- Begin Main Page Content -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Dashboard <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacts.html">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="companies.html">Companies</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Tools
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="tools.html">Social Accounts</a>
+                <a class="dropdown-item" href="tools.html">Data Migration</a>
+                <a class="dropdown-item" href="tools.html">Downloads</a>
+                <a class="dropdown-item" href="tools.html">Help Center</a>
+              </div>
+            </li>
+          </ul>
+          <div class="dropdown">
+            <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Stuart
+            </button>
+            <div class="container dropdown-menu">
+              <a class="dropdown-item" href="tools.html">Help</a>
+              <a class="dropdown-item" href="tools.html">Settings</a>
+              <a class="dropdown-item" href="tools.html">Upgrade</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Log Out</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- /End Main Nav Bar -->
     <div class="container-fluid">
       <!-- Begin Page Wrapper -->
       <div id="page-wrapper">
-        <!--Begin Contacts Section -->
+        <!-- Begin Search Bar -->
+        <div class="row">
+          <div class="col">
+            <div class="input-group input-group-lg main-search">
+              <input type="text" class="form-control" placeholder="Are you feeling lucky?" aria-label="Search for...">
+              <span class="input-group-btn">
+                <button class="btn btn-secondary" type="button"><i class="fas fa-search"></i></button>
+              </span>
+            </div>
+          </div>
+        </div>
+        <!-- /end Search Bar -->
+        <!--Begin Companies Section -->
         <div class="row">
             <!-- Begin "col-sm-12" -->
             <div class="col-sm-12">
