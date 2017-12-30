@@ -11,7 +11,7 @@
 	width: 100%
 }
 
-.white-box{
+.white-box {
 	background:#fff;
 	padding:20px;
 	border-radius: .25rem;
@@ -34,13 +34,21 @@
 	height: 100%;
 }
 
+.white-box-profile {
+    background:#fff;
+    padding:20px;
+    border-radius: .25rem;
+    width: 100%;
+    margin: 0px 10px 10px 0px;
+}
+
 /* Begin Main Nav Bar */
 /**********ADD ANY ADJUSTMENTS HERE**********/
 /* /End Main Nav Bar */
 
 /* Begin Main-Search */
 .main-search {
-    margin: 10px 0px 20px 0px;
+    margin: 0px 0px 10px 0px;
 }
 /* /End Main-Search */
 
@@ -83,7 +91,7 @@
 }
 
 #fa-star-title{
-	padding-right: 10px; 
+	margin-right: 10px; 
 	color: #ff8562;
 	}
 
@@ -197,6 +205,7 @@ footer {
 .fas, .fa-plus {
 	margin-left: 5px;
 	margin-right: 10px;
+    color: #4ea2be;
 }
 
 .fas, .fa-filter {
@@ -210,10 +219,6 @@ footer {
 
 .alt-type-select {
 	color: lightgrey;
-}
-
-.fas, .fa-plus {
-	color: #4ea2be;
 }
 
 .fas, .fa-filter {
@@ -356,3 +361,25 @@ footer {
 }
 /* /end Modals */
 
+
+/* Begin Profile Image Sizes */
+.thumb-sm{height:32px;width:32px}
+.thumb-md{height:48px;width:48px}
+.thumb-lg{height:150px;width:150px}
+/* End Profile Image Sizes */
+
+
+.profile-text {
+    font-size: 16px;
+    margin-right: 5px
+}
+
+.fa-sticky-note {
+    margin-right: 10px;
+    color: #59c9a5
+}
+
+.fa-sort-amount-down {
+    margin-right: 10px;
+    color: #4ea2be;
+}
