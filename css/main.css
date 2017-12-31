@@ -17,6 +17,7 @@
 	border-radius: .25rem;
 	width: 100%;
 	height: 100%;
+    margin: 0px 0px 0px 0px;
 }
 
 .white-box-favorites {
@@ -39,7 +40,7 @@
     padding:20px;
     border-radius: .25rem;
     width: 100%;
-    margin: 0px 10px 10px 0px;
+    margin: 0px 0px 10px 0px;
 }
 
 /* Begin Main Nav Bar */
@@ -87,7 +88,7 @@
 
 /* Begin Favorites */
 #favorites {
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 #fa-star-title{
@@ -382,4 +383,16 @@ footer {
 .fa-sort-amount-down {
     margin-right: 10px;
     color: #4ea2be;
+}
+
+.fa-trash-alt{
+    color: #ff8562;
+}
+
+.fa-pencil-alt {
+    color: #4ea2be;
+}
+
+.note-border{
+    border: none;
 }
