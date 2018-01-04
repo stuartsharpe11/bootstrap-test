@@ -44,27 +44,10 @@
 }
 
 .white-box-profile-details {
-    background:yellow;
+    background:white;
     padding:20px;
     border-radius: .25rem;
     width: 100%;
-    margin: 0px;
-    height: 100%;
-}
-
-
-
-.white-box-profile-test {
-    background:#fff;
-    padding:20px;
-    border-radius: .25rem;
-    margin: 0px 0px 10px 0px;
-}
-
-.white-box-profile-details-test {
-    background:yellow;
-    padding:20px;
-    border-radius: .25rem;
     margin: 0px;
     height: 100%;
 }
@@ -231,14 +214,12 @@ footer {
 }
 
 .fas, .fa-plus {
-	margin-left: 5px;
-	margin-right: 10px;
+	margin: 0px 10px 0px 5px;
     color: #4ea2be;
 }
 
 .fas, .fa-filter {
-	margin-right: 20px;
-	margin-left: 5px;
+	margin: 0px 20px 0px 5px;
 }
 
 .type-select {
@@ -396,19 +377,13 @@ footer {
 .thumb-lg{height:150px;width:150px}
 /* End Profile Image Sizes */
 
-
-.profile-text {
-    font-size: 16px;
-    margin-right: 5px
-}
-
 .fa-sticky-note {
     margin-right: 10px;
     color: #59c9a5
 }
 
 .fa-sort-amount-down {
-    margin-right: 10px;
+    margin: 0px 10px 0px 5px;
     color: #4ea2be;
 }
 
