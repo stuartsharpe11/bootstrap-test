@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Cliq - The Mindful CRM for Recruiters</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- FontAwesome5 CDN -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+  </head>
+
+  <body class="body">
+    <header>
+      <!-- Begin Main Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Dashboard <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacts.html">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="companies.html">Companies</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Tools
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="tools.html">Social Accounts</a>
+                <a class="dropdown-item" href="tools.html">Data Migration</a>
+                <a class="dropdown-item" href="tools.html">Downloads</a>
+                <a class="dropdown-item" href="tools.html">Help Center</a>
+              </div>
+            </li>
+          </ul>
+          <div class="dropdown">
+            <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Stuart
+            </button>
+            <div class="container dropdown-menu">
+              <a class="dropdown-item" href="tools.html">Help</a>
+              <a class="dropdown-item" href="tools.html">Settings</a>
+              <a class="dropdown-item" href="tools.html">Upgrade</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Log Out</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- /End Main Nav Bar -->
+
+
+
+
+
+    <!-- Begin Main Page Content -->
+    <div class="container-fluid">
+      <!-- Begin Page Wrapper -->
+      <div id="page-wrapper">
+        <!-- Begin Search Bar -->
+        <div class="row">
+          <div class="col">
+            <div class="input-group input-group-lg main-search">
+              <input type="text" class="form-control" placeholder="Are you feeling lucky?" aria-label="Search for...">
+              <span class="input-group-btn">
+                <button class="btn btn-secondary" type="button"><i class="fas fa-search"></i></button>
+              </span>
+            </div>
+          </div>
+        </div>
+        <!-- /end Search Bar -->
+
+    <!-- Begin Tools Container -->
+        <div class="row">
+            <!-- Begin "col-8" -->
+            <div class="col-md-8">
+                <div class="row">
+                  <!-- Begin Box 1 - Profile -->
+                  <div class="col-md-12" style="height:100%;">
+                    <div class="white-box-profile-test">
+                      <i id="fa-star-title" class="fa fa-star fa-lg"></i>
+                      <i class="fa fa-ellipsis-h fa-lg float-right"></i>
+                      <div class="text-center">
+                        <img class="rounded-circle thumb-lg" src="img/contact-profile-pic.jpg" alt="Card image cap">
+                        <h3>Ben Cannon</h3>
+                        <h6>Senior Software Engineer</h6>
+                        <h6>The Flex Company</h6>
+                      </div>
+                    </div>
+                  </div>  
+                  <!-- /end Box 1 - Profile --> 
+                  <!-- Begin Box 2 - Reminders --> 
+                  <div class="col-md-12" style="height:100%;">
+                    <div class="white-box-profile">
+                      <h4 class="box-title mb-3"><i id="fa-star-title" class="fa fa-bell"></i>Reminders
+                        <div class="float-right">
+                          <i class="fas fa-plus fa-xs"></i><span class="profile-text">Add Reminder</span>
+                          <i class="fas fa-sort-amount-down fa-xs"></i>
+                        </div>
+                      </h4>
+                      <div class="list-group m-0">
+                        <div class="list-group-item border-0">
+                          <h5 class="mb-0">Request Coffee Meeting
+                            <i class="far fa-trash-alt fa-sm float-right"></i>
+                            <i class="fas fa-pencil-alt fa-sm float-right mr-3"></i>
+                          </h5>
+                          <small class="text-muted">April 24th, 2017 at 9:30AM</small>
+                        </div>
+                        <div class="list-group-item border-0">
+                          <h5 class="mb-0">Review Portfolio
+                            <i class="far fa-trash-alt fa-sm float-right"></i>
+                            <i class="fas fa-pencil-alt fa-sm float-right mr-3"></i>
+                          </h5>
+                          <small class="text-muted">April 27th, 2017 at 12:00PM</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /end Box 2 - Reminders -->
+                  <!-- Begin Box 3 - Notes -->
+                  <div class="col-md-12" style="height:100%;">
+                    <div class="white-box-profile">
+                      <h4 class="box-title mb-3"><i class="fas fa-sticky-note"></i>Notes
+                        <!-- Begin Favorite Company or Contact Select --> 
+                        <div class="float-right">
+                          <i class="fas fa-plus fa-xs"></i><span class="profile-text">Add Note</span>
+                          <i class="fas fa-sort-amount-down fa-xs"></i>
+                        </div>
+                        <!-- /end Favorite Company or Contact Select -->
+                      </h4>
+                      <div class="list-group">
+                        <div class="list-group-item border-0">
+                          <h5 class="mb-0">Initial Screening
+                            <i class="far fa-trash-alt fa-sm float-right"></i>
+                            <i class="fas fa-pencil-alt fa-sm float-right mr-3"></i>
+                          </h5>
+                          <small class="text-muted">April 24th, 2017</small>
+                        </div>
+                        <div class="list-group-item border-0">
+                          <h5 class="mb-0">Coffee Meeting
+                            <i class="far fa-trash-alt fa-sm float-right"></i>
+                            <i class="fas fa-pencil-alt fa-sm float-right mr-3"></i>
+                          </h5>
+                          <small class="text-muted">April 24th, 2017</small>
+                        </div>
+                        <div class="list-group-item border-0">
+                          <h5 class="mb-0">Second Screening
+                            <i class="far fa-trash-alt fa-sm float-right"></i>
+                            <i class="fas fa-pencil-alt fa-sm float-right mr-3"></i>
+                          </h5>
+                          <small class="text-muted">April 24th, 2017</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Begin Box 3 - Notes -->
+                </div>
+            </div>
+            <!-- /end "col-8" -->
+            <!-- Begin "col-4" -->
+            <div class="col-md-4">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="white-box-profile-details">
+                      .
+                      <br>
+                      .
+                      <br>
+                      .
+                      
+                      <br>
+                      .
+                      <br>
+                      .
+                      <br>
+                      .
+                      <br>
+                      ..
+                      <br>
+                      .
+                      <br>
+                      ..
+                      <br>
+                      .
+                      <br>
+                      ..
+                      <br>
+                      .
+                      <br>
+                      ..
+                      <br>
+                      .
+                      <br>
+                      ..
+                      <br>
+                      .
+                      <br>
+                      ..
+                      <br>
+                      .
+                      <br>
+                      ..
+                      <br>
+                      .
+                      <br>
+                      ..
+                      <br>
+                      .
+                      <br>
+                    </div>
+                  </div>       
+                </div>
+            </div>  
+            <!-- Begin "col-4" -->    
+        </div>
+      </div>
+      <!-- /page-wrapper -->
+    </div>
+    <!-- /end Main Page Content -->
+    <footer>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

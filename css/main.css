@@ -43,6 +43,33 @@
     margin: 0px 0px 10px 0px;
 }
 
+.white-box-profile-details {
+    background:yellow;
+    padding:20px;
+    border-radius: .25rem;
+    width: 100%;
+    margin: 0px;
+    height: 100%;
+}
+
+
+
+.white-box-profile-test {
+    background:#fff;
+    padding:20px;
+    border-radius: .25rem;
+    margin: 0px 0px 10px 0px;
+}
+
+.white-box-profile-details-test {
+    background:yellow;
+    padding:20px;
+    border-radius: .25rem;
+    margin: 0px;
+    height: 100%;
+}
+
+
 /* Begin Main Nav Bar */
 /**********ADD ANY ADJUSTMENTS HERE**********/
 /* /End Main Nav Bar */
@@ -393,3 +420,7 @@ footer {
     color: #4ea2be;
 }
 
+.fa-user {
+    margin-right: 10px;
+    color: #59c9a5
+}
