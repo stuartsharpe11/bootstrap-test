@@ -214,7 +214,7 @@ footer {
 }
 
 .fas, .fa-plus {
-	margin: 0px 10px 0px 5px;
+	margin: 0px 5px 0px 5px;
     color: #4ea2be;
 }
 
@@ -383,7 +383,7 @@ footer {
 }
 
 .fa-sort-amount-down {
-    margin: 0px 10px 0px 5px;
+    margin: 0px 10px 0px 10px;
     color: #4ea2be;
 }
 
