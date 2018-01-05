@@ -25,13 +25,13 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="index.html">Dashboard <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contacts.html">Contacts</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="companies.html">Companies</a>
             </li>
             <li class="nav-item dropdown">
@@ -62,6 +62,7 @@
       </nav>
     </header>
     <!-- /End Main Nav Bar -->
+    <!-- Begin Main Page Content -->
     <div class="container-fluid">
       <!-- Begin Page Wrapper -->
       <div id="page-wrapper">
@@ -77,32 +78,30 @@
           </div>
         </div>
         <!-- /end Search Bar -->
-
-
-        <!-- Begin Contact Profile Section -->
+        <!-- Begin Tools Container -->
         <div class="row">
-          <!-- Begin "Profile Box, col-sm-8" -->
-          <div class="col-sm-8">
-            <!-- Begin "white-box-lg" -->
-            <div class="white-box-profile">
-              <i id="fa-star-title" class="far fa-star fa-lg"></i>
-              <i class="fa fa-ellipsis-h fa-lg float-right"></i>
-              <div class="text-center">
-                <img class="rounded-circle thumb-lg" src="img/riot_games_logo.jpg" alt="company profile image">
-                <h3>Riot Games</h3>
-                <h6>Los Angeles, CA</h6>
-              </div>
-            <!-- /end "white-box-lg" -->
-            </div>
-          </div>
-          <!-- /end "Profile Box, col-sm-8" -->
-          <!-- Begin "Reminders Box, col-sm-8" -->
-          <div class="col-sm-8">
-            <!-- Begin "white-box-lg" -->
-            <div class="white-box-profile">
+          <!-- Begin "col-8" -->
+          <div class="col-md-8">
+            <div class="row">
+              <!-- Begin Box 1 - Profile -->
+              <div class="col-md-12">
+                <div class="white-box-profile">
+                  <i id="fa-star-title" class="far fa-star fa-lg"></i>
+                  <i class="fa fa-ellipsis-h fa-lg float-right"></i>
+                  <div class="text-center">
+                    <img class="rounded-circle thumb-lg" src="img/riot_games_logo.jpg" alt="company profile image">
+                    <h3>Riot Games</h3>
+                    <h6>Los Angeles, CA</h6>
+                  </div>
+                </div>
+              </div>  
+              <!-- /end Box 1 - Profile --> 
+              <!-- Begin Box 2 - Contacts --> 
+              <div class="col-md-12">
+                <div class="white-box-profile">
               <h4 class="box-title mb-3"><i class="far fa-address-book"></i>Contacts
                 <div class="float-right">
-                  <i class="fas fa-plus fa-xs"></i><span class="profile-text">Add Reminder</span>
+                  <i class="fas fa-plus fa-xs"></i><span class="h6">Add Contact</span>
                   <i class="fas fa-sort-amount-down fa-xs"></i>
                 </div>
               </h4>
@@ -174,12 +173,78 @@
               <!-- /end Contacts Table -->
             </div>
             <!-- /end "white-box-lg" -->
+              </div>
+              <!-- /end Box 2 - Reminders -->
+            </div>
           </div>
-          <!-- /end "Reminders Box, col-sm-8" -->
+          <!-- /end "col-8" -->
+          <!-- Begin "col-4" -->
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="white-box-profile-details">
+                  <h4 id="profile-details-header"><i class="far fa-building"></i>Company Details</h4>
+                  <hr>
+                  <i class="fas fa-phone profile-icons"></i>Phone
+                    <div class="float-right">
+                      <i class="fas fa-plus fa-xs"></i>Add Phone
+                    </div>
+                    <ul class="profile-info">
+                      <li>O: 555-555-5555<i class="far fa-trash-alt fa-sm float-right"></i></li>
+                    </ul>
+                  <i class="fas fa-envelope profile-icons"></i>Email
+                    <div class="float-right">
+                      <i class="fas fa-plus fa-xs"></i>Add Email
+                    </div>
+                    <ul class="profile-info">
+                      <li>billing@riotgames.com<i class="far fa-trash-alt fa-sm float-right"></i></li>
+                      <li>info@riotgames.com<i class="far fa-trash-alt fa-sm float-right"></i></li>
+                    </ul>
+                  <i class="fas fa-link profile-icons"></i>Website
+                    <div class="float-right">
+                      <i class="fas fa-plus fa-xs"></i>Add Website
+                    </div>
+                    <ul class="profile-info">
+                      <li>www.riotgames.com<i class="far fa-trash-alt fa-sm float-right"></i></li>
+                    </ul>
+                  <i class="fas fa-users profile-icons"></i>Social
+                    <div class="float-right">
+                      <i class="fas fa-plus fa-xs"></i>Add Social
+                    </div>
+                    <ul class="profile-info">
+                      <li><i class="fab fa-linkedin fa-lg" style="margin-right: 5px; color: #0077B5"></i>LinkedIn</li>
+                      <li><i class="fab fa-facebook-square fa-lg" style="margin-right: 5px; color:#3b5998;"></i>Facebook</li>
+                    </ul>
+                  <i class="fas fa-map-marker profile-icons"></i>Location
+                    <div class="float-right">
+                      <i class="fas fa-plus fa-xs"></i>Add Address
+                    </div>
+                  <br>
+                  <i class="fas fa-tag profile-icons"></i>Tags
+                    <div>
+                      <input type="email" class="form-control" id="inputprofiletags" aria-describedby="emailHelp" placeholder="Press 'Enter' to Add Tags">
+                      <button type="button" class="btn btn-outline-secondary btn-sm individual-tag">Enterprise
+                        <i class="fas fa-times"></i>
+                      </button>
+                      <button type="button" class="btn btn-outline-secondary btn-sm individual-tag">Java Devs
+                        <i class="fas fa-times"></i>
+                      </button>
+                      <button type="button" class="btn btn-outline-secondary btn-sm individual-tag">EM Roles
+                        <i class="fas fa-times"></i>
+                      </button>
+                      <button type="button" class="btn btn-outline-secondary btn-sm individual-tag">Q1 Roles
+                        <i class="fas fa-times"></i>
+                      </button>
+                    </div>
+                    <br>
+                </div>
+              </div>       
+            </div>
+          </div>  
+          <!-- Begin "col-4" -->    
         </div>
-        <!-- /end Contact Profile Section -->
       </div>
-      <!-- /end Page Wrapper -->
+      <!-- /page-wrapper -->
     </div>
     <!-- /end Main Page Content -->
     <footer>
