@@ -400,6 +400,29 @@ footer {
     color: #59c9a5
 }
 
+.fa-address-book {
+    margin-right: 10px;
+    color: #59c9a5
+}
+
 #inputprofiletags{
-    margin: 5px 0px 5px 0px;
+    margin: 10px 0px 5px 0px;
+}
+
+#profile-details-header {
+    text-align: center;
+}
+
+.individual-tag {
+    margin-bottom:5px;
+}
+
+.profile-icons {
+    margin: 0px 5px 0px 5px;
+    color: #4ea2be;
+}
+
+.profile-info{
+    margin: 10px 0px 10px 0px;
+    list-style-type: none;
 }
