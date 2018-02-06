@@ -1,57 +1,63 @@
 /* Stuart's Incredibly Awesome Custom CSS */
 
 .body {
-	background-color: lightgrey;
+	background-color: white;
 }
 
 #page-wrapper{
 	padding:10px;
-	background:lightgrey;
+	background: white;
 	height: 100%;
 	width: 100%
 }
 
+/* Begin Boxes */
 .white-box {
 	background:#fff;
 	padding:20px;
-	border-radius: .25rem;
+	border-radius: 5px;
 	width: 100%;
 	height: 100%;
     margin: 0px 0px 0px 0px;
+    border: 1px solid black;
 }
 
 .white-box-favorites {
 	background:#fff;
 	padding:20px;
-	border-radius: .25rem;
-	width: 100%;
+	border-radius: 5px;
+    width: 100%;
+    border: 1px solid black;
 }
 
 .white-box-lg {
 	background:#fff;
 	padding:20px;
-	border-radius: .25rem;
+	border-radius: 5px;
 	width: 100%;
-	height: 100%;
+    height: 100%;
+    border: 1px solid black;
 }
 
 .white-box-profile {
     background:#fff;
     padding:20px;
-    border-radius: .25rem;
+    border-radius: 5px;
     width: 100%;
     margin: 0px 0px 10px 0px;
+    border: 1px solid black;
 }
 
 .white-box-profile-details {
     background:white;
     padding:20px;
-    border-radius: .25rem;
+    border-radius: 5px;
     width: 100%;
     margin: 0px;
     height: 100%;
+    border: 1px solid black;
 }
-
+/* /End Boxes */
 
 /* Begin Main Nav Bar */
 /**********ADD ANY ADJUSTMENTS HERE**********/
@@ -60,6 +66,8 @@
 /* Begin Main-Search */
 .main-search {
     margin: 0px 0px 10px 0px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 /* /End Main-Search */
 
@@ -176,7 +184,7 @@ footer {
     margin: 4px 2px;
     cursor: pointer;
     width: 250px;
-    border-radius: .25rem;
+    border-radius: 5px;
 }
 
 .button-settings-select {
@@ -191,7 +199,7 @@ footer {
     margin: 4px 2px;
     cursor: pointer;
     width: 250px;
-    border-radius: .25rem;
+    border-radius: 5px;
 }
 
 .button-navigation{
@@ -203,7 +211,8 @@ footer {
 /*  Begin Profile Cards */
 .card {
 	margin: 10px;
-	width: 15rem;
+    width: 15rem;
+    border-radius: 5px;
 
 }
 /*  /end Profile Cards */
@@ -261,7 +270,7 @@ footer {
     margin: 4px 0px 10px 0px;
     cursor: pointer;
     width: 45%;
-    border-radius: .25rem;
+    border-radius: 5px;
 }
 
 .button-tools-deselect {
@@ -275,7 +284,7 @@ footer {
     margin: 4px 0px 10px 0px;
     cursor: pointer;
     width: 45%;
-    border-radius: .25rem;
+    border-radius: 5px;
 }
 /* /end Data Migration */
 
@@ -291,7 +300,7 @@ footer {
     font-size: 16px;
     margin: 4px 0px 10px 0px;
     cursor: pointer;
-    border-radius: .25rem;
+    border-radius: 5px;
     width: 45%;
 }
 
@@ -323,7 +332,7 @@ footer {
     font-size: 16px;
     margin: 4px 0px 10px 0px;
     cursor: pointer;
-    border-radius: .25rem;
+    border-radius: 5px;
     width: 49%;
 }
 
