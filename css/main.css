@@ -35,6 +35,29 @@
 
 /* End Navbar Custom CSS */
 
+/* Begin Main-Search */
+.search-custom {
+    margin: 0px 0px 10px 0px;
+    border-radius: none;
+}
+
+.input-group {
+    border-radius: none;
+}
+
+.search-button {
+    color: black;
+    background-color: white;
+    border-radius: none;
+    border: 1px solid black;
+}
+
+.form-control {
+    border-radius: none;
+    border: 1px solid black;
+}
+/* /End Main-Search */
+
 /* Begin Boxes */
 .white-box {
 	background:#fff;
@@ -82,18 +105,6 @@
     border: 1px solid black;
 }
 /* /End Boxes */
-
-/* Begin Main Nav Bar */
-/**********ADD ANY ADJUSTMENTS HERE**********/
-/* /End Main Nav Bar */
-
-/* Begin Main-Search */
-.main-search {
-    margin: 0px 0px 10px 0px;
-    border: 1px solid black;
-    border-radius: none;
-}
-/* /End Main-Search */
 
 /****** Begin Sub Nav Bar ******/
 #sub-nav{
