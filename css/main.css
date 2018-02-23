@@ -106,38 +106,13 @@
 }
 /* /End Boxes */
 
-/****** Begin Sub Nav Bar ******/
-#sub-nav{
-	background-color: #59c9a5;
-	border: none;
+/* Begin Pagination */
+
+.page-link {
+    color: black;
 }
 
-.nav, .nav-tabs {
-	border: none;
-}
-
-#active-link-color {
-	background-color: #F0F0F0;
-	border-color: #F0F0F0;
-}
-
-.fas, .fa-tachometer-alt {
-	margin-right: 7.5px;
-}
-
-.fa, .fa-user {
-	margin-right: 7.5px;
-}
-
-.far, .fa-building {
-	margin-right: 7.5px;
-}
-
-.fas, .fa-wrench {
-	margin-right: 7.5px;
-}
-/* /end Sub Nav Bar */
-
+/* Begin Pagination */
 
 /* Begin Favorites */
 #favorites {
@@ -450,7 +425,7 @@ footer {
     color: #59c9a5
 }
 
-.fa-address-book {
+.fa-user {
     margin-right: 10px;
     color: #59c9a5
 }
