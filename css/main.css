@@ -11,11 +11,35 @@
 	width: 100%
 }
 
+
+/* Begin Navbar Custom CSS */
+.navbar-custom {
+    color: black;
+    background-color: white;
+    margin: 25px;
+}
+
+.nav-link {
+    color: black;
+}
+
+.navbar-brand {
+    color: black;
+}
+
+.navbar-toggler {
+    border-color: black;
+}
+
+.navbar-toggle-icon span {color: black;} /* this portion needs to be edited */
+
+/* End Navbar Custom CSS */
+
 /* Begin Boxes */
 .white-box {
 	background:#fff;
 	padding:20px;
-	border-radius: 5px;
+	border-radius: none;
 	width: 100%;
 	height: 100%;
     margin: 0px 0px 0px 0px;
@@ -25,7 +49,7 @@
 .white-box-favorites {
 	background:#fff;
 	padding:20px;
-	border-radius: 5px;
+	border-radius: none;
     width: 100%;
     border: 1px solid black;
 }
@@ -33,7 +57,7 @@
 .white-box-lg {
 	background:#fff;
 	padding:20px;
-	border-radius: 5px;
+	border-radius: none;
 	width: 100%;
     height: 100%;
     border: 1px solid black;
@@ -42,7 +66,7 @@
 .white-box-profile {
     background:#fff;
     padding:20px;
-    border-radius: 5px;
+    border-radius: none;
     width: 100%;
     margin: 0px 0px 10px 0px;
     border: 1px solid black;
@@ -51,7 +75,7 @@
 .white-box-profile-details {
     background:white;
     padding:20px;
-    border-radius: 5px;
+    border-radius: none;
     width: 100%;
     margin: 0px;
     height: 100%;
@@ -67,7 +91,7 @@
 .main-search {
     margin: 0px 0px 10px 0px;
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: none;
 }
 /* /End Main-Search */
 
@@ -184,7 +208,7 @@ footer {
     margin: 4px 2px;
     cursor: pointer;
     width: 250px;
-    border-radius: 5px;
+    border-radius: none;
 }
 
 .button-settings-select {
@@ -199,7 +223,7 @@ footer {
     margin: 4px 2px;
     cursor: pointer;
     width: 250px;
-    border-radius: 5px;
+    border-radius: none;
 }
 
 .button-navigation{
@@ -212,7 +236,8 @@ footer {
 .card {
 	margin: 10px;
     width: 15rem;
-    border-radius: 5px;
+    border-radius: none;
+    border: 1px solid black;
 
 }
 /*  /end Profile Cards */
@@ -270,7 +295,7 @@ footer {
     margin: 4px 0px 10px 0px;
     cursor: pointer;
     width: 45%;
-    border-radius: 5px;
+    border-radius: none;
 }
 
 .button-tools-deselect {
@@ -284,7 +309,7 @@ footer {
     margin: 4px 0px 10px 0px;
     cursor: pointer;
     width: 45%;
-    border-radius: 5px;
+    border-radius: none;
 }
 /* /end Data Migration */
 
@@ -300,7 +325,7 @@ footer {
     font-size: 16px;
     margin: 4px 0px 10px 0px;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: none;
     width: 45%;
 }
 
@@ -332,7 +357,7 @@ footer {
     font-size: 16px;
     margin: 4px 0px 10px 0px;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: none;
     width: 49%;
 }
 
@@ -440,3 +465,7 @@ footer {
     margin: 10px 0px 10px 0px;
     list-style-type: none;
 }
+
+
+
+
